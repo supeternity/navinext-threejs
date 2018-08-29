@@ -3,7 +3,7 @@ import TWEEN from 'tween.js';
 // This object contains the state of the app
 export default {
   isDev: false,
-  isShowingStats: true,
+  isShowingStats: false,
   isLoaded: false,
   isTweening: false,
   isRotating: true,
@@ -25,8 +25,8 @@ export default {
   },
   mesh: {
     enableHelper: false,
-    wireframe: false,
-    translucent: false,
+    wireframe: true,
+    translucent: true,
     material: {
       color: 0xffffff,
       emissive: 0xffffff
@@ -40,10 +40,18 @@ export default {
     fov: 40,
     near: 2,
     far: 1000,
-    aspect: 1,
+    aspect: 2.2,
     posX: 0,
     posY: 30,
     posZ: 40
+  },
+  orthographic: {
+    status: true,
+    near: 1,
+    far: 6000,
+    posX: 70,
+    posY: 70,
+    posZ: 0
   },
   controls: {
     autoRotate: true,
@@ -79,7 +87,7 @@ export default {
   },
   shadow: {
     enabled: true,
-    helperEnabled: true,
+    helperEnabled: false,
     bias: 0,
     mapWidth: 2048,
     mapHeight: 2048,

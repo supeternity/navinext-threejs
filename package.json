@@ -1,8 +1,8 @@
 {
-  "name": "threejs-es6-webpack-boilerplate",
+  "name": "navinext",
   "version": "1.0.0",
-  "description": "Boilerplate for Three.js projects set up with Babel for ES6 and compiled with webpack",
-  "author": "Paul Graffam",
+  "description": "building navigation on terminals",
+  "author": "Timilink LLC",
   "main": "app.js",
   "scripts": {
     "dev": "run-p dev:sass webpack-server",

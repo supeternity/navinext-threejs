@@ -6,6 +6,7 @@ import TWEEN from 'tween.js';
 // Components
 import Renderer from './components/renderer';
 import Camera from './components/camera';
+import Orthographic from './components/orthographic';
 import Light from './components/light';
 import Controls from './components/controls';
 
@@ -47,7 +48,13 @@ export default class Main {
     this.renderer = new Renderer(this.scene, container);
 
     // Components instantiations
-    this.camera = new Camera(this.renderer.threeRenderer);
+    if (Config.orthographic.status === false) {
+      this.camera = new Camera(this.renderer.threeRenderer);
+      console.dir(this.camera);
+    } else {
+      this.camera = new Orthographic(this.renderer.threeRenderer);
+      console.dir(this.camera);
+    }
     this.controls = new Controls(this.camera.threeCamera, container);
     this.light = new Light(this.scene);
 
@@ -88,7 +95,7 @@ export default class Main {
         new Interaction(this.renderer.threeRenderer, this.scene, this.camera.threeCamera, this.controls.threeControls);
 
         // Add dat.GUI controls if dev
-        if(Config.isDev) {
+        if(!Config.isDev) {
           new DatGUI(this, this.model.obj);
         }
 

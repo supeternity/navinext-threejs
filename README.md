@@ -1,61 +1,41 @@
-# Three.js Webpack ES6 Boilerplate
-https://github.com/paulmg/ThreeJS-Webpack-ES6-Boilerplate/
+# Navinext frontent documentation 
 
-A basic boilerplate for a Three.js project including the use of Webpack and ES6 syntax via Babel.
+## Структура проекта
+Базируется на [Three.js Webpack ES6](https://github.com/paulmg/ThreeJS-Webpack-ES6-Boilerplate/)
 
-## Project Structure
 ```
-build - Directory for built and compressed files from the npm build script
-src - Directory for all dev files
-├── css - Contains all SCSS files, that are compiled to `src/public/assets/css`
-├── js - All the Three.js app files, with `app.js` as entry point. Compiled to `src/public/assets/js` with webpack
+build - Директория для финальной сборки приложения
+src - Исходные файлы приложения
+├── css - Ассеты SCSS
+├── js - Все возможные файлы приложения treejs, точка входа `app.js` 
 │   ├── app
-│   │   ├── components - Three.js components that get initialized in `main.js`
-│   │   ├── helpers - Classes that provide ideas on how to set up and work with defaults
-│   │   ├── managers - Manage complex tasks such as GUI or input
-│   │   └── model - Classes that set up the model object
-│   ├── data - Any data to be imported into app
-│   └── utils - Various helpers and vendor classes
-└── public - Used by webpack-dev-server to serve content and is copied over to build folder with build command. Place external vendor files here.
+│   │   ├── components - Компоненты
+│   │   ├── helpers - Хэлперы для компонентов
+│   │   ├── managers - Пользовательский интерфейс / Ввод|Вывод
+│   │   └── model - 3D json
+│   ├── data - Конфиги и другие статические данные
+│   └── utils - Вендоры
+└── public - Системная папка webpack
 ```
 
-## Getting started
-Install dependencies:
+## Установка и запуск
+Зависимости:
 
 ```
 npm install
 ```
 
-Then run dev script:
+Запуск сервера разработки:
 
 ```
 npm run dev
 ```
 
-Spins up a webpack dev server at localhost:8080 and keeps track of all js and sass changes to files. Only reloads automatically upon save of js files.
+Запуск по адресу localhost:8080, автоматическая пересборка по изменению файлов.
 
 ## Build
 ```
 npm run build
 ```
 
-Cleans existing build folder while linting js folder and then copies over the public folder from src. Then sets environment to production and compiles js and css into build.
-
-## Other NPM Scripts
-You can run any of these individually if you'd like with the npm run command:
-* prebuild - Cleans build folder and lints `src/js`
-* clean - Cleans build folder
-* lint - Runs lint on `src/js` folder and uses `.eslintrc` file in root as linting rules
-* webpack-server - Create webpack-dev-server with hot-module-replacement
-* webpack-watch - Run webpack in dev environment with watch
-* dev:sass - Run node-sass on `src/css` folder and output to `src/public` and watch for changes
-* dev:js - Run webpack in dev environment without watch
-* build:dir - Copy files and folders from `src/public` to `build`
-* build:sass - Run node-sass on `src/css` and output compressed css to `build` folder
-* build:js - Run webpack in production environment
-
-## Input Controls
-* Press H to hide dat.GUI
-* Arrow controls will pan
-* Mouse left click will rotate/right click will pan
-* Scrollwheel zooms in and out
+Очистка директории build, последующие копирование файлов из public и минификация.
