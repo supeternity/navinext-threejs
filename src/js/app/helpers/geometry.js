@@ -23,6 +23,13 @@ export default class Geometry {
         this.geo = new THREE.SphereGeometry(radius, widthSegments, heightSegments);
       };
     }
+
+    // composite object assembly with lines
+    // if(type === 'holeLinePlace') {
+    //   return (dimension, center, even) => {
+    //     this.line = new THREE.Line(),
+    //   }
+    // }
   }
 
   place(position, rotation) {

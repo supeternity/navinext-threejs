@@ -2,7 +2,8 @@ import TWEEN from 'tween.js';
 
 // This object contains the state of the app
 export default {
-  isDev: false,
+  axisHelper: true,
+  isDev: true,
   isShowingStats: false,
   isLoaded: false,
   isTweening: false,
@@ -13,10 +14,6 @@ export default {
   dpr: 1,
   easing: TWEEN.Easing.Quadratic.InOut,
   duration: 500,
-  model: {
-    path: './assets/models/Teapot.json',
-    scale: 20
-  },
   texture: {
     path: './assets/textures/',
     imageFiles: [
@@ -24,7 +21,7 @@ export default {
     ]
   },
   mesh: {
-    enableHelper: false,
+    enableHelper: true,
     wireframe: true,
     translucent: true,
     material: {
@@ -42,31 +39,32 @@ export default {
     far: 1000,
     aspect: 2.2,
     posX: 0,
-    posY: 30,
-    posZ: 40
+    posY: 40,
+    posZ: 30
   },
   orthographic: {
     status: true,
     near: 1,
-    far: 6000,
-    posX: 70,
-    posY: 70,
+    far: 3000,
+    posX: 0,
+    posY: 10,
     posZ: 0
   },
   controls: {
-    autoRotate: true,
+    autoRotate: false,
     autoRotateSpeed: -0.5,
     rotateSpeed: 0.5,
     zoomSpeed: 0.8,
-    minDistance: 200,
-    maxDistance: 600,
-    minPolarAngle: Math.PI / 5,
+    minDistance: 600,
+    maxDistance: 10,
+    minPolarAngle: Math.PI / 6,
     maxPolarAngle: Math.PI / 2,
     minAzimuthAngle: -Infinity,
     maxAzimuthAngle: Infinity,
     enableDamping: true,
     dampingFactor: 0.5,
     enableZoom: true,
+    orhtoZoom: 80,
     target: {
       x: 0,
       y: 0,

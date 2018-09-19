@@ -9,11 +9,7 @@ export default class Orthographic {
     const height = renderer.domElement.height;
 
     // Create and position a Perspective Camera
-    this.threeCamera = new THREE.OrthographicCamera( width / - 2, width / 2, height / 2, height / - 2, Config.orthographic.near, Config.orthographic.far );
-    this.threeCamera.position.set(Config.orthographic.posX, Config.orthographic.posY, Config.orthographic.posZ);
-    this.threeCamera.rotation.order = 'YXZ';
-    this.threeCamera.rotation.y = - Math.PI / 4;
-    this.threeCamera.rotation.x = Math.atan( - 1 / Math.sqrt( 2 ) );
+    this.threeCamera = new THREE.OrthographicCamera( width / - Config.controls.orhtoZoom, width / Config.controls.orhtoZoom, height / Config.controls.orhtoZoom, height / - Config.controls.orhtoZoom, Config.orthographic.near, Config.orthographic.far );
     
     // Initial sizing
     this.updateSize(renderer);
@@ -25,10 +21,10 @@ export default class Orthographic {
   updateSize(renderer) {
     const width = renderer.domElement.width;
     const height = renderer.domElement.height;
-    this.threeCamera.left = width / - 2;
-    this.threeCamera.right = width / 2;
-    this.threeCamera.top = height / 2;
-    this.threeCamera.bottom = height / - 2;
+    this.threeCamera.left = width / - Config.controls.orhtoZoom;
+    this.threeCamera.right = width / Config.controls.orhtoZoom;
+    this.threeCamera.top = height / Config.controls.orhtoZoom;
+    this.threeCamera.bottom = height / - Config.controls.orhtoZoom;
     this.threeCamera.updateProjectionMatrix();
   }
 }

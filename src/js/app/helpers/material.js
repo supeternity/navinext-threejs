@@ -18,7 +18,7 @@ export default class Material {
       side: THREE.DoubleSide
     });
 
-    this.wire = new THREE.MeshBasicMaterial({wireframe: true});
+    this.wire = new THREE.MeshBasicMaterial({color, wireframe: true});
   }
 }
 

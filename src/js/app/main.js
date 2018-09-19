@@ -16,11 +16,13 @@ import Stats from './helpers/stats';
 
 // Model
 import Texture from './model/texture';
-import Model from './model/model';
+
+// Scenes
+import TicTac from './scenes/TicTac';
 
 // Managers
 import Interaction from './managers/interaction';
-import DatGUI from './managers/datGUI';
+// import DatGUI from './managers/datGUI';
 
 // data
 import Config from './../data/config';
@@ -50,10 +52,8 @@ export default class Main {
     // Components instantiations
     if (Config.orthographic.status === false) {
       this.camera = new Camera(this.renderer.threeRenderer);
-      console.dir(this.camera);
     } else {
       this.camera = new Orthographic(this.renderer.threeRenderer);
-      console.dir(this.camera);
     }
     this.controls = new Controls(this.camera.threeCamera, container);
     this.light = new Light(this.scene);
@@ -65,7 +65,7 @@ export default class Main {
     // Create and place geo in scene
     this.geometry = new Geometry(this.scene);
     this.geometry.make('plane')(150, 150, 10, 10);
-    this.geometry.place([0, -20, 0], [Math.PI / 2, 0, 0]);
+    this.geometry.place([0, 0, 0], [Math.PI / 2, 0, 0]);
 
     // Set up rStats if dev environment
     if(Config.isDev && Config.isShowingStats) {
@@ -80,9 +80,15 @@ export default class Main {
     this.texture.load().then(() => {
       this.manager = new THREE.LoadingManager();
 
-      // Textures loaded, load model
-      this.model = new Model(this.scene, this.manager, this.texture.textures);
-      this.model.load();
+      // Textures loaded!
+      
+      // Load teapot example
+      // this.teapot = new Model(this.scene, this.manager, this.texture.textures);
+      // this.teapot.load();
+
+      // Load Timilink demo
+      this.tictac = new TicTac(this.scene, this.manager);
+      this.tictac.load();
 
       // onProgress callback
       this.manager.onProgress = (item, loaded, total) => {
@@ -91,17 +97,26 @@ export default class Main {
 
       // All loaders done now
       this.manager.onLoad = () => {
+
+        // All done!
+        console.log('All loaders complete');
+
         // Set up interaction manager with the app now that the model is finished loading
         new Interaction(this.renderer.threeRenderer, this.scene, this.camera.threeCamera, this.controls.threeControls);
 
         // Add dat.GUI controls if dev
-        if(!Config.isDev) {
-          new DatGUI(this, this.model.obj);
+        if(Config.isDev) {
+          //new DatGUI(this);
         }
 
-        // Everything is now fully loaded
+        // Everything is now threejs-es6-engine
         Config.isLoaded = true;
         this.container.querySelector('#loading').style.display = 'none';
+
+        // run demo
+        // must have special loader for scenes
+        this.tictac.run();
+
       };
     });
 
