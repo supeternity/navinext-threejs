@@ -48,14 +48,14 @@ export default class svgExtruder {
   // ______________________________________________________
   
   extrude() {
-    this.geometry = new THREE.ExtrudeBufferGeometry( this.draw.shape, {
+    this.geometry = new THREE.ExtrudeGeometry( this.draw.shape, {
       amount: this.props.depth[this.draw.class],
       steps: 1,
       bevelEnabled: false,
-      bevelThickness: 5,
-      bevelSize: 6,
-      bevelSegments: 200,
-      curveSegments: 50,
+      bevelThickness: 40,
+      bevelSize: -10,
+      bevelSegments: 40,
+      curveSegments: 30,
     });
     this.material = new Material( this.props.color[this.draw.class] ).standard;
     const obj = new THREE.Mesh( this.geometry, this.material );
