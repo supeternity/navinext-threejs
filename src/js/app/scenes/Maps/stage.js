@@ -21,7 +21,7 @@ export default class Stage {
     this.scene = scene;
     this.field = null;
     this.conf = Conf;
-    this.css = this.conf.css;
+    this.style = this.conf.style;
     this.create();
   }
 
@@ -36,7 +36,7 @@ export default class Stage {
   //
   create() {
 
-    const building = new Building( this.svg, this.css );
+    const building = new Building( this.svg, this.style );
 
     building.convert().then(() => {
 

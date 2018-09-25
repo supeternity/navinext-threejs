@@ -19,6 +19,7 @@ import Texture from './model/texture';
 
 // Scenes
 import TicTac from './scenes/TicTac';
+import Maps from './scenes/maps';
 
 // Managers
 import Interaction from './managers/interaction';
@@ -88,7 +89,9 @@ export default class Main {
 
       // Load Timilink demo
       this.tictac = new TicTac(this.scene, this.manager);
-      this.tictac.load();
+      // this.tictac.load();
+      this.maps = new Maps(this.scene, this.manager);
+      this.maps.load();
 
       // onProgress callback
       this.manager.onProgress = (item, loaded, total) => {
@@ -115,7 +118,8 @@ export default class Main {
 
         // run demo
         // must have special loader for scenes
-        this.tictac.run();
+        //this.tictac.run();
+        this.maps.run();
 
       };
     });

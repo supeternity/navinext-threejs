@@ -3,21 +3,40 @@
 // _____________________________________________________
 
 export default {
-  source: './assets/models/svg/maps/debug/debug.svg',
+  source: './assets/models/svg/maps/debug/debug-waypoints.svg',
   disposition: ['b', 'o', 'x', 'o', 'b', 'o', 'x', 'o', 'b'],
   player: 'x',
   bot: {
     name: 'Cyber Boroday',
   },
-  css: {
+
+  // ------------------------------------------------------
+  //                                            specs style
+  //
+  //    wall: bool
+  //          extruded with or without walls
+  //
+  //   depth: int
+  //          extruded level
+  //
+  //   color: https://threejs.org/docs/#api/en/math/Color
+  //
+  // shadows: bool
+  //          cast or no-cast
+  //        
+  // ------------------------------------------------------
+  //
+  
+  style: {
+    wall: false,
     depth: {
-      wall: 40,
+      room: 40,
     },
     color: {
-      wall: '#FFFFFF',
+      room: '#FFFFFF',
     },
     shadows: {
-      wall: true,
+      room: true,
     },
   },
 }
