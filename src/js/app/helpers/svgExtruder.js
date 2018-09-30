@@ -61,7 +61,6 @@ export default class svgExtruder {
     const obj = new THREE.Mesh( this.geometry, this.material );
     obj.visible = false;
     obj.rotateX( 90 * Math.PI / 180 );
-    obj.position.set( 0 , 0 , 0 );
     obj.name = this.draw.class;
     this.obj = obj;
   }

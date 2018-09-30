@@ -13,24 +13,88 @@ import svgShape from '../../helpers/svgShape';
 import svgExtruder from '../../helpers/svgExtruder';
 
 
-//                                 3DO library for Cell's
+//                               3DO library for Building
+//                                   Timilink LLC. © 2018
 // ______________________________________________________
 
 export default class Building {
 
-  constructor( svg, css ) {
+  constructor( svg, style ) {
     this.svg = svg;
-    this.css = css;
-    this.walls = null;
+    this.style = style;
+
+    this.floors = [];
+    this.directions = {
+      starts: [],
+      ways: [],
+      doors: [],
+    };
+    this.status = {
+      disassembly: false,
+      shapes: false,
+      directions: false,
+      meshes: false,
+      sprites: false,
+    };
   }
+
 
   //                                          local methods
   // ______________________________________________________
 
   // ------------------------------------------------------
+  //                                               hyperlay
+  // 
+  // for parallel layer disassembly
+  // ------------------------------------------------------
+  //
+  hyperlay(layer) {
+    const d = new Date();
+    console.log(`%c at ${d.getHours()}:${d.getMinutes()} 
+ hyperlay <- ${layer.attributes.id} `, 'background: #f1f1f1; color: #210FFF');
+
+    return new Promise(resolve => {
+      if (layer.attributes.id === 'rooms') {
+        const rooms = [];
+        console.log('init room-container');
+        console.dir(rooms);
+        layer.children.reverse().map((el, i) => { // pick id from el
+          console.log('init layer mapping');
+          console.dir(el);
+          el.children.map(_el => {
+            if (_el.attributes.class === 'room') {
+              const room = {
+                id: el.attributes.class, // int id
+                d: _el.attributes.d,
+              };
+              rooms.push(room);
+            } else if (_el.attributes.class === 'door') {
+              const door = {
+                id: el.attributes.class, // int id
+              };
+              const dbody = new svgShape(_el.attributes.d);
+              const bbox2 = new THREE.Box2();
+              bbox2.setFromPoints(dbody.obj[0].getPoints());
+              door.center = bbox2.getCenter();
+              this.directions.doors.push(door);
+            }
+          });
+          if (i === layer.children.length - 1) {
+            console.dir(rooms);
+            console.dir(this.directions.doors);
+            resolve(rooms);
+          }
+        });
+      } else if (layer.attributes.id === 'directions') {
+      } else if (layer.attributes.id === 'background') {
+      }
+    });
+  }
+
+  // ------------------------------------------------------
   //                                            disassembly
   //   -  - --(SVGSON)
-  // full- SVG - ->- JSON cdropp to local object
+  // full- SVG - ->- JSON cdropp to local objects
   // ------------------------------------------------------
   // 
   // a r g u m e n t s
@@ -38,29 +102,45 @@ export default class Building {
   // 
   // p a r t s
   //    source.children[0] ... .children[n] - SVG layers
+  //    source.attributes - all data of conctrete object
+  //    stack - array for part's-promises
   //
   // r e t u r n
-  //    tree array[] with like your scene structure
-  //
+  //    res.building[] - d-pathes for strong objects
+  //    res.directions[] - indexed waylines for TSP
+  //    res.background[] - placed your build on Earth
+  //    
   // ------------------------------------------------------
   // 
-  disassembly(source) { // <-- рекурсивно пройтись
-    console.log('%c Working JSON: ', 'background: #3f87a6; color: #eee');
+  disassembly(source) {
+
+    console.log('%c SVGSON disassembly to working JSON processing ... ',
+      'background: #00FFB6; color: #210FFF');
+    
     return new Promise(resolve => {
-      const res = [];
-      source.children.map((el, i) => {
-        const conv = {
-          id: el.attributes.id,
-          curves: el.children.map(_el => {
-            return ({
-              class: _el.attributes.class,
-              d: _el.attributes.d,
+      
+      const stack = [];
+
+      source.children.map((el) => {
+        if (el.attributes.id === 'building') {
+          el.children.map(_el => {
+            _el.children.map(__el => {
+              stack.push(this.hyperlay(__el));
             });
-          }),
-        };
-        res.push( conv );
-        i === source.children.length - 1 ? resolve(res) : ' ';
+          });
+        } else if (el.attributes.id === 'background') {
+          stack.push(this.hyperlay(el));
+        }
       });
+
+      // console.log(`%c working JSON stack: `,
+      //   'background: #FFFFFF; color: #CCCCCC');
+      // console.dir(stack);
+
+      // cast armature
+      // cast directions
+      // cast bacgrkound (enveronment)
+
     });
   }
 
@@ -124,7 +204,7 @@ export default class Building {
   //
   meshes(source) {
     return new Promise(resolve => {
-      console.log(`%c model: `, 'background: #3f87a6; color: #eee');
+      console.log(`%c model: `);
       const res = [];
       source.map((el, i) => {
         const model = new THREE.Group();
@@ -155,21 +235,27 @@ export default class Building {
 
     return new Promise((resolve, reject) => {
 
-      console.log('%c SVG source: ', 'background: #3f87a6; color: #eee');
-      console.dir( this.svg );
+      // console.log('%c SVG source: ', 'background: #3f87a6; color: #eee');
+      // console.dir( this.svg );
 
       SVGSON.parse( this.svg ).then(res => {
+
         console.log('%c SVGSON: ', 'background: #3f87a6; color: #eee');
         console.dir(res);
 
         // SVGSON to mustdata juice
         this.disassembly(res).then(res => {
+
           console.dir(res);
+
           // convert d to true THREE.Shape objects
           this.shapes(res).then(res => {
-            console.dir(res);
+
+            console.dir(res.meshes);
+
             // convert all curves to true THREE.Mesh objects
-            this.meshes(res).then(res => {
+            this.meshes(res.meshes).then(res => {
+
               console.dir(res);
 
               // set local instance
@@ -179,16 +265,18 @@ export default class Building {
               // ok
               resolve();
 
+            // meshes catch -
             }).catch(err => {
-              // meshes catch -
-              reject(`Cube: Crash: ${err}`);
+              reject(`Meshes: Crash: ${err}`);
             });
+
+          // shapes catch -
           }).catch(err => {
-            // shapes catch -
             reject(`Curves: Crash: ${err}`);
           });
+
+        // disassembly catch -
         }).catch(err => {
-          // disassembly catch -
           reject(`Source: Disassembly crash: ${err}`);
         });
   
@@ -199,6 +287,7 @@ export default class Building {
       });
 
     });
+
   } 
 
 }

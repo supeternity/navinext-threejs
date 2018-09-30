@@ -19,10 +19,8 @@ export default class Stage {
   constructor( svg, scene ) {
     this.svg = svg;
     this.scene = scene;
-    this.field = null;
     this.conf = Conf;
     this.style = this.conf.style;
-    this.create();
   }
 
 
@@ -48,10 +46,6 @@ export default class Stage {
       console.error(`Create a building: ${err}`);
     });
     
-  }
-
-  update() {
-
   }
 
 

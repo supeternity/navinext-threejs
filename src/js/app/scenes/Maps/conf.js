@@ -13,16 +13,17 @@ export default {
   // ------------------------------------------------------
   //                                            specs style
   //
-  //    wall: bool
-  //          extruded with or without walls
+  //      wall: bool
+  //            extruded with or without walls
   //
-  //   depth: int
-  //          extruded level
+  //     depth: int
+  //            extruded label
   //
-  //   color: https://threejs.org/docs/#api/en/math/Color
+  //     color: https://threejs.org/docs/#api/en/math/Color
+  //            material color
   //
-  // shadows: bool
-  //          cast or no-cast
+  //   shadows: bool
+  //            cast or no-cast
   //        
   // ------------------------------------------------------
   //

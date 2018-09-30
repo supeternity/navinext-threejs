@@ -58,7 +58,9 @@ export default class Maps {
   //
   load() {
     this.loader.load( this.conf.source, res => {
-      this.svg = res;
+      let barber = res.replace(/style=".*"/gm, '');
+      barber = barber.replace(/serif:id=/gm, 'class=');
+      this.svg = barber;
     });
   }
 
@@ -69,6 +71,7 @@ export default class Maps {
   //
   run() {
     this.stage = new Stage( this.svg, this.scene );
+    this.stage.create();
     // this.bot = new NPC( this.conf.bot.name );
     // this.bot.play( this.stage );
   }

@@ -1,373 +1,146 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 2080 1170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g id="floor-2">
-        <g id="rooms">
-            <g id="_63" serif:id="63">
-                <path id="wall" d="M1726,1063L1726,747L1506,747L1506,907L1622,907L1622,1063L1726,1063Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1613.22,922.409L1616.44,925.627L1613.22,928.845L1610,925.627L1613.22,922.409Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_62" serif:id="62">
-                <rect id="wall1" serif:id="wall" x="1610" y="643" width="116" height="100" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-            </g>
-            <g id="_61" serif:id="61">
-                <rect id="wall2" serif:id="wall" x="1506" y="327" width="220" height="312" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1495.51,509.626L1498.73,512.844L1495.51,516.061L1492.29,512.844L1495.51,509.626Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_60" serif:id="60">
-                <rect id="wall3" serif:id="wall" x="1506" y="107" width="220" height="216" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1495.51,273.715L1498.73,276.933L1495.51,280.151L1492.29,276.933L1495.51,273.715Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_59" serif:id="59">
-                <path id="wall4" serif:id="wall" d="M1502,107L1406,107L1406,207L1502,207L1502,107" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1476.79,213.474L1480.01,216.692L1476.79,219.91L1473.57,216.692L1476.79,213.474Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_58" serif:id="58">
-                <path id="wall5" serif:id="wall" d="M1402,107L1402,211L1426,211L1426,323L1350,323L1350,107L1402,107Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1436.89,259.129L1440.11,262.347L1436.89,265.565L1433.67,262.347L1436.89,259.129Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_57" serif:id="57">
-                <path id="wall6" serif:id="wall" d="M1426,327L1426,463L1350,463L1350,327L1426,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1388.93,468.142L1392.15,471.36L1388.93,474.578L1385.71,471.36L1388.93,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_56" serif:id="56">
-                <path id="wall7" serif:id="wall" d="M1346,327L1346,463L1294,463L1294,327L1346,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1320.87,468.142L1324.09,471.36L1320.87,474.578L1317.66,471.36L1320.87,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_55" serif:id="55">
-                <path id="wall8" serif:id="wall" d="M1290,327L1290,463L1238,463L1238,327L1290,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1264.82,468.142L1268.03,471.36L1264.82,474.578L1261.6,471.36L1264.82,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_54" serif:id="54">
-                <path id="wall9" serif:id="wall" d="M1234,327L1234,463L1182,463L1182,327L1234,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1208.76,468.142L1211.97,471.36L1208.76,474.578L1205.54,471.36L1208.76,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_53" serif:id="53">
-                <path id="wall10" serif:id="wall" d="M1346,107L1346,324L1182,324L1182,107L1346,107" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1172.71,157.227L1175.93,160.445L1172.71,163.663L1169.49,160.445L1172.71,157.227Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_52" serif:id="52">
-                <path id="wall11" serif:id="wall" d="M1154,463L1154,191L1126,191L1126,127L1154,127L1154,107L998,107L998,119L846,119L846,163L882,163L882,463L1154,463Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M835.999,137.408L839.217,140.626L835.999,143.844L832.781,140.626L835.999,137.408Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M1137.53,157.227L1140.75,160.445L1137.53,163.663L1134.31,160.445L1137.53,157.227Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M987.695,468.142L990.913,471.36L987.695,474.578L984.477,471.36L987.695,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_51" serif:id="51">
-                <path id="wall12" serif:id="wall" d="M878,463L878,167L854,167L854,219L790,219L790,319L698,319L698,463L878,463Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M788,468.142L791.218,471.36L788,474.578L784.782,471.36L788,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_50" serif:id="50">
-                <rect id="wall13" serif:id="wall" x="698" y="219" width="88" height="96" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M741.611,205.584L744.829,208.802L741.611,212.02L738.393,208.802L741.611,205.584Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_49" serif:id="49">
-                <path id="wall14" serif:id="wall" d="M674,463L674,219L614,219L614,183L562,183L562,463L674,463" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M619.125,468.142L622.343,471.36L619.125,474.578L615.907,471.36L619.125,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_48" serif:id="48">
-                <path id="wall15" serif:id="wall" d="M614,179L614,151L574,151L574,107L354,107L354,319L366,319L366,347L398,347L398,363L438,363L438,383L558,383L558,179L614,179Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M517.4,388.564L520.618,391.782L517.4,395L514.182,391.782L517.4,388.564Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_47" serif:id="47">
-                <path id="wall16" serif:id="wall" d="M354,415L470,415L470,515L354,515L354,415" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M479.524,459.782L482.742,463L479.524,466.218L476.306,463L479.524,459.782Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_46" serif:id="46">
-                <path id="wall17" serif:id="wall" d="M470,519L470,563L394,563L394,519L470,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M479.524,537.782L482.742,541L479.524,544.218L476.306,541L479.524,537.782Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_45" serif:id="45">
-                <path id="wall18" serif:id="wall" d="M610,519L610,571L566,571L566,519L610,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M557.704,542.705L560.922,545.923L557.704,549.141L554.486,545.923L557.704,542.705Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M586.655,507.769L589.873,510.987L586.655,514.205L583.437,510.987L586.655,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_44" serif:id="44">
-                <path id="wall19" serif:id="wall" d="M658,519L658,571L614,571L614,519L658,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M634.854,507.769L638.072,510.987L634.854,514.205L631.636,510.987L634.854,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_43" serif:id="43">
-                <path id="wall20" serif:id="wall" d="M762,519L762,571L662,571L662,519L762,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M709.902,507.769L713.12,510.987L709.902,514.205L706.684,510.987L709.902,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_42" serif:id="42">
-                <rect id="wall21" serif:id="wall" x="786" y="639" width="96" height="116" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M836.082,762.436L839.3,765.654L836.082,768.872L832.864,765.654L836.082,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_41" serif:id="41">
-                <path id="wall22" serif:id="wall" d="M886,755L886,691L942,691L942,755L886,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M950.845,721.076L954.063,724.294L950.845,727.512L947.627,724.294L950.845,721.076Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M914.485,762.436L917.703,765.654L914.485,768.872L911.267,765.654L914.485,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_40" serif:id="40">
-                <path id="wall23" serif:id="wall" d="M1030,755L1030,691L1086,691L1086,755L1030,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1060.15,762.436L1063.37,765.654L1060.15,768.872L1056.94,765.654L1060.15,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_39" serif:id="39">
-                <path id="wall24" serif:id="wall" d="M1090,755L1090,639L1206,639L1206,755L1090,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1148.78,762.436L1152,765.654L1148.78,768.872L1145.57,765.654L1148.78,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_38" serif:id="38">
-                <path id="wall25" serif:id="wall" d="M1210,755L1210,639L1298,639L1298,755L1210,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1254.23,762.436L1257.45,765.654L1254.23,768.872L1251.01,765.654L1254.23,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_37" serif:id="37">
-                <path id="wall26" serif:id="wall" d="M1302,755L1302,639L1410,639L1410,755L1302,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1420.15,692.677L1423.37,695.895L1420.15,699.113L1416.93,695.895L1420.15,692.677Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M1354.68,762.436L1357.89,765.654L1354.68,768.872L1351.46,765.654L1354.68,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_36" serif:id="36">
-                <path id="wall27" serif:id="wall" d="M1030,687L1030,639L1086,639L1086,687L1030,687" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1021.52,660.821L1024.74,664.039L1021.52,667.257L1018.3,664.039L1021.52,660.821Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_35" serif:id="35">
-                <path id="wall28" serif:id="wall" d="M1030,635L1030,587L1086,587L1086,635L1030,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1021.52,606.758L1024.74,609.976L1021.52,613.194L1018.3,609.976L1021.52,606.758Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_34" serif:id="34">
-                <path id="wall29" serif:id="wall" d="M1030,583L1030,519L1086,519L1086,583L1030,583" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1063.2,507.769L1066.41,510.987L1063.2,514.205L1059.98,510.987L1063.2,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M1021.52,553.989L1024.74,557.207L1021.52,560.425L1018.3,557.207L1021.52,553.989Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_33" serif:id="33">
-                <path id="wall30" serif:id="wall" d="M1090,635L1090,519L1146,519L1146,635L1090,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1119.03,507.769L1122.25,510.987L1119.03,514.205L1115.81,510.987L1119.03,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_32" serif:id="32">
-                <path id="wall31" serif:id="wall" d="M1150,635L1150,519L1206,519L1206,635L1150,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1178.79,507.769L1182.01,510.987L1178.79,514.205L1175.58,510.987L1178.79,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_31" serif:id="31">
-                <path id="wall32" serif:id="wall" d="M1302,635L1302,519L1354,519L1354,635L1302,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1328.36,507.769L1331.58,510.987L1328.36,514.205L1325.14,510.987L1328.36,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_30" serif:id="30">
-                <rect id="wall33" serif:id="wall" x="1358" y="571" width="52" height="64" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1418.63,600.828L1421.85,604.046L1418.63,607.264L1415.42,604.046L1418.63,600.828Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_29" serif:id="29">
-                <rect id="wall34" serif:id="wall" x="1358" y="519" width="52" height="48" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1383.87,507.769L1387.08,510.987L1383.87,514.205L1380.65,510.987L1383.87,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M1418.63,539.967L1421.85,543.185L1418.63,546.402L1415.42,543.185L1418.63,539.967Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_28" serif:id="28">
-                <path id="wall35" serif:id="wall" d="M1210,635L1210,519L1298,519L1298,635L1210,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1252.47,507.769L1255.69,510.987L1252.47,514.205L1249.25,510.987L1252.47,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_27" serif:id="27">
-                <path id="wall36" serif:id="wall" d="M886,687L886,639L942,639L942,687L886,687" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M950.378,661.044L953.596,664.262L950.378,667.48L947.16,664.262L950.378,661.044Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_26" serif:id="26">
-                <path id="wall37" serif:id="wall" d="M766,635L766,519L834,519L834,635L766,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M798.656,507.769L801.874,510.987L798.656,514.205L795.438,510.987L798.656,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_25" serif:id="25">
-                <path id="wall38" serif:id="wall" d="M838,635L838,519L942,519L942,635L838,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M859.95,507.769L863.168,510.987L859.95,514.205L856.732,510.987L859.95,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M951.095,577L954.312,580.218L951.095,583.436L947.877,580.218L951.095,577Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_24" serif:id="24">
-                <path id="wall39" serif:id="wall" d="M354,519L390,519L390,567L470,567L470,647L402,647L402,627L374,627L374,647L354,647L354,519Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M479.788,603.973L483.006,607.191L479.788,610.409L476.57,607.191L479.788,603.973Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_23" serif:id="23">
-                <rect id="wall40" serif:id="wall" x="1506" y="643" width="100" height="100" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1493.81,689.782L1497.03,693L1493.81,696.218L1490.59,693L1493.81,689.782Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_22" serif:id="22">
-                <path id="wall41" serif:id="wall" d="M1514,967L1514,943L1478,943L1478,839L1402,839L1402,967L1514,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1439.44,827.886L1442.66,831.104L1439.44,834.322L1436.22,831.104L1439.44,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_21" serif:id="21">
-                <rect id="wall42" serif:id="wall" x="1350" y="839" width="48" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1373.51,827.886L1376.73,831.104L1373.51,834.322L1370.29,831.104L1373.51,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_20" serif:id="20">
-                <rect id="wall43" serif:id="wall" x="1298" y="839" width="48" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1318.64,827.886L1321.86,831.104L1318.64,834.322L1315.42,831.104L1318.64,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_19" serif:id="19">
-                <path id="wall44" serif:id="wall" d="M1294,967L1294,839L1182,839L1182,911L1202,911L1202,967L1294,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1245.33,827.886L1248.55,831.104L1245.33,834.322L1242.11,831.104L1245.33,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_18" serif:id="18">
-                <path id="wall45" serif:id="wall" d="M1178,839L1178,915L1198,915L1198,967L1126,967L1126,911L1142,911L1142,883L1162,883L1162,839L1178,839Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1169.45,827.886L1172.66,831.104L1169.45,834.322L1166.23,831.104L1169.45,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_17" serif:id="17">
-                <path id="wall46" serif:id="wall" d="M1158,839L1158,879L1086,879L1086,839L1158,839" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1121.64,827.886L1124.86,831.104L1121.64,834.322L1118.42,831.104L1121.64,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_16" serif:id="16">
-                <path id="wall47" serif:id="wall" d="M1138,883L1138,907L1122,907L1122,967L986,967L986,839L1082,839L1082,883L1138,883Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M1033.09,827.886L1036.3,831.104L1033.09,834.322L1029.87,831.104L1033.09,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_15" serif:id="15">
-                <rect id="wall48" serif:id="wall" x="938" y="839" width="44" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M959.13,827.886L962.348,831.104L959.13,834.322L955.913,831.104L959.13,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_14" serif:id="14">
-                <rect id="wall49" serif:id="wall" x="890" y="839" width="44" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M914.372,827.886L917.59,831.104L914.372,834.322L911.154,831.104L914.372,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_13" serif:id="13">
-                <path id="wall50" serif:id="wall" d="M886,967L886,839L806,839L806,871L822,871L822,911L842,911L842,967L886,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M862.549,827.886L865.767,831.104L862.549,834.322L859.331,831.104L862.549,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_12" serif:id="12">
-                <path id="wall51" serif:id="wall" d="M838,967L838,915L818,915L818,875L802,875L802,839L786,839L786,915L770,915L770,967L838,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M793.406,827.886L796.624,831.104L793.406,834.322L790.188,831.104L793.406,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_11" serif:id="11">
-                <path id="wall52" serif:id="wall" d="M766,967L766,911L782,911L782,839L730,839L730,967L766,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M756.508,827.886L759.726,831.104L756.508,834.322L753.29,831.104L756.508,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_10" serif:id="10">
-                <path id="wall53" serif:id="wall" d="M726,967L726,839L670,839L670,907L614,907L614,967L726,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M698.274,827.886L701.492,831.104L698.274,834.322L695.056,831.104L698.274,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_9" serif:id="9">
-                <path id="wall54" serif:id="wall" d="M458.521,667C443.357,687.332 433.822,712.105 432.236,739L366,739L366,699L398,699L398,671L434,671L434,667L458.521,667Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M447.56,702.045L450.778,705.263L447.56,708.481L444.342,705.263L447.56,702.045Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_8" serif:id="8">
-                <path id="wall55" serif:id="wall" d="M432.059,743C432.02,744.329 432,745.662 432,747C432,761.465 434.297,775.398 438.546,788.454L392,835L354,835L354,743L432.059,743Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M440.156,762.439L443.374,765.657L440.156,768.875L436.938,765.657L440.156,762.439Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_7" serif:id="7">
-                <path id="wall56" serif:id="wall" d="M440.086,792.914C448.501,815.959 463.067,836.054 481.792,851.208L462,871L462,967L354,967L354,839L394,839L440.086,792.914Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M463.014,819.608L466.232,822.826L463.014,826.044L459.796,822.826L463.014,819.608Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_6" serif:id="6">
-                <path id="wall57" serif:id="wall" d="M485.156,853.844C507.634,870.885 535.645,881 566,881L566,967L466,967L466,873L485.156,853.844Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M524.797,864.211L528.015,867.428L524.797,870.646L521.579,867.428L524.797,864.211Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_5" serif:id="5">
-                <path id="wall58" serif:id="wall" d="M610,873.597L610,967L570,967L570,880.941C583.973,880.531 597.412,877.977 610,873.597Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M589.198,868.657L592.416,871.875L589.198,875.093L585.98,871.875L589.198,868.657Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_4" serif:id="4">
-                <path id="wall59" serif:id="wall" d="M663.338,839L666,839L666,903L614,903L614,872.133C633.258,864.732 649.54,853.852 663.338,839Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M636,850.018L639.218,853.236L636,856.454L632.782,853.236L636,850.018Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_3" serif:id="3">
-                <path id="wall60" serif:id="wall" d="M762,639L782,639L782,755L699.764,755C699.921,752.353 700,749.686 700,747C700,710.67 685.511,677.697 662,653.55L662,575L762,575L762,639Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M741.909,761.63L745.127,764.848L741.909,768.066L738.692,764.848L741.909,761.63Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-                <path d="M685.123,699.436L688.341,702.654L685.123,705.871L681.905,702.654L685.123,699.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_2" serif:id="2">
-                <path id="wall61" serif:id="wall" d="M658,649.609C645.394,637.695 630.479,628.199 614,621.867L614,575L658,575L658,649.609Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M633.559,634.951L636.777,638.168L633.559,641.386L630.341,638.168L633.559,634.951Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="_1" serif:id="1">
-                <path id="wall62" serif:id="wall" d="M610,620.403C596.216,615.607 581.41,613 566,613L566,575L610,575L610,620.403Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
-                <path d="M588,617.185L591.218,620.403L588,623.621L584.782,620.403L588,617.185Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
-            </g>
-            <g id="starts">
-                <path id="terminal-01" d="M534.064,703.819L536.958,705.921L535.511,707.913L537.852,708.674L536.747,712.076L534.406,711.315L534.406,713.777L530.828,713.777L530.828,711.315L528.487,712.076L527.381,708.674L529.723,707.913L528.276,705.921L531.17,703.819L532.617,705.81L534.064,703.819Z" style="fill:rgb(255,0,184);"/>
-            </g>
-        </g>
-        <g id="directions">
-            <g id="points">
-                <circle cx="1434.35" cy="502.363" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1446.4" cy="480.143" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1448.59" cy="262.328" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1477.1" cy="230.701" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1483.18" cy="277.237" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1383.89" cy="500.424" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1389.07" cy="480.604" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1320.98" cy="480.847" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1328.11" cy="500.424" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1264.96" cy="480.847" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1252.32" cy="500.424" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1208.82" cy="480.847" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1178.55" cy="500.424" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1168.15" cy="481.276" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1168.15" cy="181.794" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1162.15" cy="161.081" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1148.16" cy="161.081" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1119.19" cy="500.424" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1063" cy="500.424" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="965.7" cy="580.158" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1008.71" cy="557.135" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1008.71" cy="500.364" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="987.769" cy="481.989" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="965.7" cy="664.245" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1008.71" cy="610.201" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="965.7" cy="724.178" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1008.71" cy="664.563" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="965.7" cy="778.254" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="959.347" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="913.926" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="914.522" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="862.535" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="836.106" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="793.411" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="756.723" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="742.206" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="698.002" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="622.993" cy="833.014" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="586.544" cy="848.126" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="533.708" cy="844.729" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="482.459" cy="807.579" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="464.454" cy="761.888" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="469.54" cy="712.414" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="502.473" cy="606.687" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="537.371" cy="606.687" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="547.823" cy="638.044" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="499.173" cy="664.229" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="502.473" cy="541.038" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="537.371" cy="546.184" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="502.473" cy="463.41" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="537.371" cy="501.189" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="537.907" cy="417.575" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="518.859" cy="417.575" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="537.907" cy="479.595" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="586.519" cy="500.121" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="634.425" cy="500.121" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="619.088" cy="481.276" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="709.704" cy="500.121" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="686.179" cy="481.276" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="686.179" cy="195.48" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="719.685" cy="140.951" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="821.971" cy="140.951" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="741.766" cy="195.48" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="798.561" cy="500.121" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="788.071" cy="481.276" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="860.124" cy="500.121" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="965.7" cy="499.929" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="502.473" cy="417.575" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="583.721" cy="647.067" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="620.705" cy="661.186" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="661.436" cy="711.068" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="671.539" cy="766.362" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1032.91" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1060.75" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1008.71" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1121.32" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1149.17" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1169.25" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1245.53" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1254.32" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1318.53" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1354.86" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1373.69" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1438.94" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1435.58" cy="780.163" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1491.36" cy="816.642" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1491.36" cy="926.115" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1599.15" cy="926.115" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1435.58" cy="696.077" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1480.61" cy="693.034" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1480.61" cy="513.367" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1435.58" cy="603.644" r="3.043" style="fill:rgb(255,129,0);"/>
-                <circle cx="1435.58" cy="543.252" r="3.043" style="fill:rgb(255,129,0);"/>
-            </g>
-            <g id="ways">
-                <path d="M742.206,780.163L914.522,780.163L965.7,778.254L965.7,724.178L965.7,664.245L965.7,580.158L965.7,499.929L860.124,500.121L798.561,500.121L709.704,500.121L634.425,500.121L586.519,500.121L537.371,501.189L537.371,606.687L547.823,638.044C551.237,645.353 577.89,646.033 583.721,647.067C597.124,649.442 609.636,654.142 620.705,661.186C639.125,672.909 653.508,690.353 661.436,711.068C665.794,722.457 660.994,750.071 671.539,766.362C678.942,777.799 694.156,780.163 742.206,780.163Z" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                <path d="M689.222,481.276L788.071,481.276L987.769,481.989L1165.1,481.276L1165.1,181.794L1148.16,161.081L1162.15,161.081L1171.19,181.794L1171.19,481.276L1208.82,480.847L1320.98,480.847L1389.07,480.604L1446.4,480.143L1448.59,262.328L1477.1,230.701L1483.18,277.237L1480.61,513.367L1480.61,693.034L1494.4,816.642L1494.4,923.071L1599.15,926.115L1488.32,929.158L1488.32,816.642L1438.94,816.642L1373.69,816.642L1318.53,816.642L1245.53,816.642L1169.25,816.642L1121.32,816.642L1032.91,816.642L959.347,816.642L913.926,816.642L862.535,816.642L793.411,816.642L756.723,816.642L698.002,816.642C649.342,816.292 634.847,824.281 622.993,833.014C612.403,840.814 603.819,845.334 586.544,848.126C570.116,850.781 551.579,849.933 533.708,844.729C512.64,838.594 494.912,825.228 482.459,807.579C473.075,794.28 466.791,778.778 464.454,761.888C462.422,747.197 463.532,727.852 469.54,712.414C480.385,684.547 497.813,681.709 499.173,664.229C499.264,663.059 502.473,606.687 502.473,606.687L502.473,541.038L502.473,463.41L502.473,417.575L537.907,417.575L537.907,479.595L619.088,481.276L683.136,481.276L683.136,195.48L719.685,140.951L821.971,140.951L744.809,195.48L689.222,195.48L689.222,481.276Z" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                <path d="M1008.71,500.364L1008.71,780.163L1435.58,780.163L1435.58,696.077L1435.58,603.644L1435.58,543.252L1434.35,502.363L1383.89,500.424L1328.11,500.424L1252.32,500.424L1178.55,500.424L1119.19,500.424L1063,500.424L1008.71,500.364Z" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                <g id="to_doors">
+    <g id="background">
+        <rect id="procedural" x="286.817" y="30.518" width="1503.26" height="1095.19" style="fill:rgb(0,255,182);"/>
+    </g>
+    <g id="building">
+        <g id="floor-2">
+            <g id="directions">
+                <g id="waylines">
+                    <path d="M836.106,780.163L914.522,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M914.522,780.163L965.7,778.254" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,778.254L965.7,724.178" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,724.178L965.7,664.245" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,664.245L965.7,580.158" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,580.158L965.7,499.929" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,499.929L860.124,500.121" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M860.124,500.121L798.561,500.121" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M798.561,500.121L709.704,500.121" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M709.704,500.121L634.425,500.121" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M634.425,500.121L586.519,500.121" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M586.519,500.121L537.371,501.189" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M537.371,501.189L537.371,546.184" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M537.371,546.184L537.371,606.687" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M537.371,606.687L547.823,638.044" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M547.823,638.044C551.237,645.353 577.89,646.033 583.721,647.067" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M583.721,647.067C597.124,649.442 609.636,654.142 620.705,661.186" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M620.705,661.186C639.125,672.909 653.508,690.353 661.436,711.068" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M661.436,711.068C665.794,722.457 660.994,750.071 671.539,766.362" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M671.539,766.362C678.942,777.799 694.156,780.163 742.206,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M742.206,780.163C790.256,780.163 836.106,780.163 836.106,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M788.071,481.276L987.769,481.989" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M987.769,481.989L1165.1,481.276" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1165.1,481.276" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1165.1,481.276L1165.1,181.794" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1165.1,181.794L1148.16,161.081" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1148.16,161.081L1162.15,161.081" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1162.15,161.081L1171.19,181.794" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1171.19,181.794L1171.19,481.276" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1171.19,481.276L1208.82,480.847" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1208.82,480.847L1264.96,480.847" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1264.96,480.847L1320.98,480.847" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1320.98,480.847L1389.07,480.604" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1389.07,480.604L1446.4,480.143" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1446.4,480.143L1448.59,262.328" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1448.59,262.328L1477.1,230.701" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1477.1,230.701L1483.18,277.237" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1483.18,277.237L1481,474.47" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1481,474.47L1480.61,513.367" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1480.61,513.367L1480.61,693.034" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1480.61,693.034L1494.4,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1494.4,816.642L1494.4,923.071" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1494.4,923.071L1599.15,926.115" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1599.15,926.115L1488.32,929.158" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1488.32,929.158L1488.32,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1488.32,816.642L1438.94,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1438.94,816.642L1373.69,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1373.69,816.642L1318.53,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1318.53,816.642L1245.53,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1245.53,816.642L1169.25,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1169.25,816.642L1121.32,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1121.32,816.642L1032.91,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1032.91,816.642L959.347,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M959.347,816.642L913.926,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M913.926,816.642L862.535,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M862.535,816.642L793.411,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M793.411,816.642L756.723,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M756.723,816.642L698.002,816.642" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M698.002,816.642C649.342,816.292 634.847,824.281 622.993,833.014" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M622.993,833.014C612.403,840.814 603.819,845.334 586.544,848.126" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M586.544,848.126C570.116,850.781 551.579,849.933 533.708,844.729" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M533.708,844.729C512.64,838.594 494.912,825.228 482.459,807.579" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M482.459,807.579C473.075,794.28 466.791,778.778 464.454,761.888" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M464.454,761.888C462.422,747.197 463.532,727.852 469.54,712.414" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M469.54,712.414C480.385,684.547 497.813,681.709 499.173,664.229" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M499.173,664.229C499.264,663.059 502.473,606.687 502.473,606.687" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M502.473,606.687L502.473,541.038" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M502.473,541.038L502.473,463.41" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M502.473,463.41L502.473,417.575" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M502.473,417.575L518.859,417.575" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M518.859,417.575L537.907,417.575" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M537.907,417.575L537.907,479.595" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M537.907,479.595L619.088,481.276" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M619.088,481.276L683.136,481.276" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M683.136,481.276L683.136,195.48" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M683.136,195.48L719.685,140.951" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M719.685,140.951L821.971,140.951" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M821.971,140.951L744.809,195.48" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M744.809,195.48L689.222,195.48" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M689.222,195.48L689.222,481.276" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M689.222,481.276L788.071,481.276" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1008.71,557.135L1008.71,610.201" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1008.71,610.201L1008.71,664.563" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1008.71,664.563L1008.71,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1008.71,780.163L1060.75,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1060.75,780.163L1149.17,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1149.17,780.163L1254.32,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1254.32,780.163L1354.86,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1354.86,780.163L1435.58,780.163" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1435.58,780.163L1435.58,696.077" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1435.58,696.077L1435.58,603.644" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1435.58,603.644L1435.58,543.252" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1435.58,543.252L1434.35,502.363" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1434.35,502.363L1383.89,500.424" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1383.89,500.424L1328.11,500.424" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1328.11,500.424L1252.32,500.424" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1252.32,500.424L1178.55,500.424" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1178.55,500.424L1119.19,500.424" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1119.19,500.424L1063,500.424" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1063,500.424L1008.71,500.364" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1008.71,500.364L1008.71,557.135" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M502.473,541.038L537.371,501.189" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M537.371,501.189L537.907,479.595" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M537.907,479.595L502.473,463.41" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M634.425,500.121L683.136,481.276" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M683.136,481.276L689.222,481.276" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M689.222,481.276L709.704,500.121" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M987.769,481.989L1008.71,500.364" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1008.71,500.364L965.7,499.929" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,499.929L987.769,481.989" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1178.55,500.364L1171.19,481.276" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1171.19,481.276L1165.1,481.276" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1165.1,481.276L1119.19,500.424" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M959.347,816.642L965.7,778.254" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,778.254L1008.71,780.163" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1008.71,780.163L959.347,816.642" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M965.7,778.254L1032.91,816.642" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1032.91,816.642L1008.71,780.163" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M502.473,463.41L537.907,501.189" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M537.907,479.595L502.473,541.038" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M689.222,195.48L683.136,195.48" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1488.32,816.642L1494.4,816.642" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1480.61,513.367L1446.4,480.143" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1446.4,480.143L1434.35,502.363" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1434.35,502.363L1480.61,513.367" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1488.32,816.642L1435.58,780.163" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1435.58,780.163L1438.94,816.642" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1446.4,480.143L1481,474.47" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1434.35,502.363L1481,474.47" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1435.58,780.163L1480.61,693.034" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1438.94,816.642L1480.61,693" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1488.32,816.642L1435.58,696.077" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M1483.18,277.237L1448.59,262.328" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
                     <path d="M479.788,607.191L502.473,606.687" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
                     <path d="M502.473,541.038L479.524,541" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
                     <path d="M502.473,463.41L479.524,463" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
@@ -422,20 +195,299 @@
                     <path d="M1178.55,500.424L1178.79,510.987" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
                     <path d="M1119.19,500.424L1119.03,510.987" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
                     <path d="M1063,500.424L1063.2,510.987" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                    <g id="central">
-                        <path d="M532.617,708.798L583.721,647.067L588,620.403" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M532.617,708.798L620.705,661.186L633.559,638.168" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M685.123,702.654L661.436,711.068L532.617,708.798L671.539,766.362" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M499.173,664.229L532.617,708.798L547.823,638.044" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M469.54,712.414L532.617,708.798L464.454,761.888L440.156,765.657" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M469.54,712.414L447.56,705.263" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M532.617,708.798L482.459,807.579L463.014,822.826" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M524.797,867.428L533.708,844.729L532.617,708.798" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M589.198,871.875L586.544,848.126L532.617,708.798" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M636,853.236L622.993,833.014L532.617,708.798" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M671.539,766.362C660.781,796.977 643.439,817.851 622.993,833.014" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                        <path d="M499.173,664.229C511.867,647.897 528.06,639.116 547.823,638.044" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
-                    </g>
+                    <path d="M1599.15,926.115L1613.22,925.627" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1483.18,277.237L1495.51,276.933" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1477.1,230.701L1476.79,216.692" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1448.59,262.328L1436.89,262.347" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1480.61,693.034L1493.81,693" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1480.61,513.367L1495.51,512.844" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1162.15,161.081L1172.71,160.445" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M1148.16,161.081L1137.53,160.445" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M547.823,638.044C530.43,642.159 513.778,649.541 499.173,664.229" style="fill:none;stroke:rgb(0,9,255);stroke-width:0.5px;"/>
+                    <path d="M671.539,766.362C662.016,790.943 645.98,818.795 622.993,833.014" style="fill:none;stroke:rgb(0,9,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L620.705,661.186" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M620.705,661.186L633.559,638.168" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M671.539,766.362L563.739,747.269" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L661.436,711.068" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M661.436,711.068L685.123,702.654" style="fill:none;stroke:rgb(0,3,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L622.993,833.014" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L586.544,848.126" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M622.993,833.014L636,853.236" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M586.544,848.126L589.198,871.875" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L533.708,844.729" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M533.708,844.729L524.797,867.428" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L482.459,807.579" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M482.459,807.579L463.014,822.826" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M447.56,705.263L469.54,712.414" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M469.54,712.414L563.739,747.269" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L464.454,761.888" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M464.454,761.888L440.156,765.657" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L499.173,664.229" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M547.823,638.044L563.739,747.269" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M563.739,747.269L583.721,647.067" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                    <path d="M583.721,647.067L588,620.403" style="fill:none;stroke:rgb(33,15,255);stroke-width:0.5px;"/>
+                </g>
+            </g>
+            <g id="rooms">
+                <g id="_63" serif:id="63">
+                    <path id="room" serif:id="room" d="M1726,1063L1726,747L1506,747L1506,907L1622,907L1622,1063L1726,1063Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door" serif:id="door" d="M1613.22,922.409L1616.44,925.627L1613.22,928.845L1610,925.627L1613.22,922.409Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_62" serif:id="62">
+                    <rect id="room1" serif:id="room" x="1610" y="643" width="116" height="100" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                </g>
+                <g id="_61" serif:id="61">
+                    <rect id="room2" serif:id="room" x="1506" y="327" width="220" height="312" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door1" serif:id="door" d="M1495.51,509.626L1498.73,512.844L1495.51,516.061L1492.29,512.844L1495.51,509.626Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_60" serif:id="60">
+                    <rect id="room3" serif:id="room" x="1506" y="107" width="220" height="216" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door2" serif:id="door" d="M1495.51,273.715L1498.73,276.933L1495.51,280.151L1492.29,276.933L1495.51,273.715Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_59" serif:id="59">
+                    <path id="room4" serif:id="room" d="M1502,107L1406,107L1406,207L1502,207L1502,107" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door3" serif:id="door" d="M1476.79,213.474L1480.01,216.692L1476.79,219.91L1473.57,216.692L1476.79,213.474Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_58" serif:id="58">
+                    <path id="room5" serif:id="room" d="M1402,107L1402,211L1426,211L1426,323L1350,323L1350,107L1402,107Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door4" serif:id="door" d="M1436.89,259.129L1440.11,262.347L1436.89,265.565L1433.67,262.347L1436.89,259.129Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_57" serif:id="57">
+                    <path id="room6" serif:id="room" d="M1426,327L1426,463L1350,463L1350,327L1426,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door5" serif:id="door" d="M1388.93,468.142L1392.15,471.36L1388.93,474.578L1385.71,471.36L1388.93,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_56" serif:id="56">
+                    <path id="room7" serif:id="room" d="M1346,327L1346,463L1294,463L1294,327L1346,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door6" serif:id="door" d="M1320.87,468.142L1324.09,471.36L1320.87,474.578L1317.66,471.36L1320.87,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_55" serif:id="55">
+                    <path id="room8" serif:id="room" d="M1290,327L1290,463L1238,463L1238,327L1290,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door7" serif:id="door" d="M1264.82,468.142L1268.03,471.36L1264.82,474.578L1261.6,471.36L1264.82,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_54" serif:id="54">
+                    <path id="room9" serif:id="room" d="M1234,327L1234,463L1182,463L1182,327L1234,327" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door8" serif:id="door" d="M1208.76,468.142L1211.97,471.36L1208.76,474.578L1205.54,471.36L1208.76,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_53" serif:id="53">
+                    <path id="room10" serif:id="room" d="M1346,107L1346,324L1182,324L1182,107L1346,107" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door9" serif:id="door" d="M1172.71,157.227L1175.93,160.445L1172.71,163.663L1169.49,160.445L1172.71,157.227Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_52" serif:id="52">
+                    <path id="room11" serif:id="room" d="M1154,463L1154,191L1126,191L1126,127L1154,127L1154,107L998,107L998,119L846,119L846,163L882,163L882,463L1154,463Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door10" serif:id="door" d="M835.999,137.408L839.217,140.626L835.999,143.844L832.781,140.626L835.999,137.408Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door11" serif:id="door" d="M1137.53,157.227L1140.75,160.445L1137.53,163.663L1134.31,160.445L1137.53,157.227Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door12" serif:id="door" d="M987.695,468.142L990.913,471.36L987.695,474.578L984.477,471.36L987.695,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_51" serif:id="51">
+                    <path id="room12" serif:id="room" d="M878,463L878,167L854,167L854,219L790,219L790,319L698,319L698,463L878,463Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door13" serif:id="door" d="M788,468.142L791.218,471.36L788,474.578L784.782,471.36L788,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_50" serif:id="50">
+                    <rect id="room13" serif:id="room" x="698" y="219" width="88" height="96" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door14" serif:id="door" d="M741.611,205.584L744.829,208.802L741.611,212.02L738.393,208.802L741.611,205.584Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_49" serif:id="49">
+                    <path id="room14" serif:id="room" d="M674,463L674,219L614,219L614,183L562,183L562,463L674,463" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door15" serif:id="door" d="M619.125,468.142L622.343,471.36L619.125,474.578L615.907,471.36L619.125,468.142Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_48" serif:id="48">
+                    <path id="room15" serif:id="room" d="M614,179L614,151L574,151L574,107L354,107L354,319L366,319L366,347L398,347L398,363L438,363L438,383L558,383L558,179L614,179Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door16" serif:id="door" d="M517.4,388.564L520.618,391.782L517.4,395L514.182,391.782L517.4,388.564Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_47" serif:id="47">
+                    <path id="room16" serif:id="room" d="M354,415L470,415L470,515L354,515L354,415" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door17" serif:id="door" d="M479.524,459.782L482.742,463L479.524,466.218L476.306,463L479.524,459.782Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_46" serif:id="46">
+                    <path id="room17" serif:id="room" d="M470,519L470,563L394,563L394,519L470,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door18" serif:id="door" d="M479.524,537.782L482.742,541L479.524,544.218L476.306,541L479.524,537.782Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_45" serif:id="45">
+                    <path id="room18" serif:id="room" d="M610,519L610,571L566,571L566,519L610,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door19" serif:id="door" d="M557.704,542.705L560.922,545.923L557.704,549.141L554.486,545.923L557.704,542.705Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door20" serif:id="door" d="M586.655,507.769L589.873,510.987L586.655,514.205L583.437,510.987L586.655,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_44" serif:id="44">
+                    <path id="room19" serif:id="room" d="M658,519L658,571L614,571L614,519L658,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door21" serif:id="door" d="M634.854,507.769L638.072,510.987L634.854,514.205L631.636,510.987L634.854,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_43" serif:id="43">
+                    <path id="room20" serif:id="room" d="M762,519L762,571L662,571L662,519L762,519" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door22" serif:id="door" d="M709.902,507.769L713.12,510.987L709.902,514.205L706.684,510.987L709.902,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_42" serif:id="42">
+                    <rect id="room21" serif:id="room" x="786" y="639" width="96" height="116" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door23" serif:id="door" d="M836.082,762.436L839.3,765.654L836.082,768.872L832.864,765.654L836.082,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_41" serif:id="41">
+                    <path id="room22" serif:id="room" d="M886,755L886,691L942,691L942,755L886,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door24" serif:id="door" d="M950.845,721.076L954.063,724.294L950.845,727.512L947.627,724.294L950.845,721.076Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door25" serif:id="door" d="M914.485,762.436L917.703,765.654L914.485,768.872L911.267,765.654L914.485,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_40" serif:id="40">
+                    <path id="room23" serif:id="room" d="M1030,755L1030,691L1086,691L1086,755L1030,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door26" serif:id="door" d="M1060.15,762.436L1063.37,765.654L1060.15,768.872L1056.94,765.654L1060.15,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_39" serif:id="39">
+                    <path id="room24" serif:id="room" d="M1090,755L1090,639L1206,639L1206,755L1090,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door27" serif:id="door" d="M1148.78,762.436L1152,765.654L1148.78,768.872L1145.57,765.654L1148.78,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_38" serif:id="38">
+                    <path id="room25" serif:id="room" d="M1210,755L1210,639L1298,639L1298,755L1210,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door28" serif:id="door" d="M1254.23,762.436L1257.45,765.654L1254.23,768.872L1251.01,765.654L1254.23,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_37" serif:id="37">
+                    <path id="room26" serif:id="room" d="M1302,755L1302,639L1410,639L1410,755L1302,755" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door29" serif:id="door" d="M1420.15,692.677L1423.37,695.895L1420.15,699.113L1416.93,695.895L1420.15,692.677Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door30" serif:id="door" d="M1354.68,762.436L1357.89,765.654L1354.68,768.872L1351.46,765.654L1354.68,762.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_36" serif:id="36">
+                    <path id="room27" serif:id="room" d="M1030,687L1030,639L1086,639L1086,687L1030,687" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door31" serif:id="door" d="M1021.52,660.821L1024.74,664.039L1021.52,667.257L1018.3,664.039L1021.52,660.821Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_35" serif:id="35">
+                    <path id="room28" serif:id="room" d="M1030,635L1030,587L1086,587L1086,635L1030,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door32" serif:id="door" d="M1021.52,606.758L1024.74,609.976L1021.52,613.194L1018.3,609.976L1021.52,606.758Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_34" serif:id="34">
+                    <path id="room29" serif:id="room" d="M1030,583L1030,519L1086,519L1086,583L1030,583" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door33" serif:id="door" d="M1063.2,507.769L1066.41,510.987L1063.2,514.205L1059.98,510.987L1063.2,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door34" serif:id="door" d="M1021.52,553.989L1024.74,557.207L1021.52,560.425L1018.3,557.207L1021.52,553.989Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_33" serif:id="33">
+                    <path id="room30" serif:id="room" d="M1090,635L1090,519L1146,519L1146,635L1090,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door35" serif:id="door" d="M1119.03,507.769L1122.25,510.987L1119.03,514.205L1115.81,510.987L1119.03,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_32" serif:id="32">
+                    <path id="room31" serif:id="room" d="M1150,635L1150,519L1206,519L1206,635L1150,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door36" serif:id="door" d="M1178.79,507.769L1182.01,510.987L1178.79,514.205L1175.58,510.987L1178.79,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_31" serif:id="31">
+                    <path id="room32" serif:id="room" d="M1302,635L1302,519L1354,519L1354,635L1302,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door37" serif:id="door" d="M1328.36,507.769L1331.58,510.987L1328.36,514.205L1325.14,510.987L1328.36,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_30" serif:id="30">
+                    <rect id="room33" serif:id="room" x="1358" y="571" width="52" height="64" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door38" serif:id="door" d="M1418.63,600.828L1421.85,604.046L1418.63,607.264L1415.42,604.046L1418.63,600.828Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_29" serif:id="29">
+                    <rect id="room34" serif:id="room" x="1358" y="519" width="52" height="48" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door39" serif:id="door" d="M1383.87,507.769L1387.08,510.987L1383.87,514.205L1380.65,510.987L1383.87,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door40" serif:id="door" d="M1418.63,539.967L1421.85,543.185L1418.63,546.402L1415.42,543.185L1418.63,539.967Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_28" serif:id="28">
+                    <path id="room35" serif:id="room" d="M1210,635L1210,519L1298,519L1298,635L1210,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door41" serif:id="door" d="M1252.47,507.769L1255.69,510.987L1252.47,514.205L1249.25,510.987L1252.47,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_27" serif:id="27">
+                    <path id="room36" serif:id="room" d="M886,687L886,639L942,639L942,687L886,687" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door42" serif:id="door" d="M950.378,661.044L953.596,664.262L950.378,667.48L947.16,664.262L950.378,661.044Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_26" serif:id="26">
+                    <path id="room37" serif:id="room" d="M766,635L766,519L834,519L834,635L766,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door43" serif:id="door" d="M798.656,507.769L801.874,510.987L798.656,514.205L795.438,510.987L798.656,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_25" serif:id="25">
+                    <path id="room38" serif:id="room" d="M838,635L838,519L942,519L942,635L838,635" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door44" serif:id="door" d="M859.95,507.769L863.168,510.987L859.95,514.205L856.732,510.987L859.95,507.769Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door45" serif:id="door" d="M951.095,577L954.312,580.218L951.095,583.436L947.877,580.218L951.095,577Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_24" serif:id="24">
+                    <path id="room39" serif:id="room" d="M354,519L390,519L390,567L470,567L470,647L402,647L402,627L374,627L374,647L354,647L354,519Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door46" serif:id="door" d="M479.788,603.973L483.006,607.191L479.788,610.409L476.57,607.191L479.788,603.973Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_23" serif:id="23">
+                    <rect id="room40" serif:id="room" x="1506" y="643" width="100" height="100" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door47" serif:id="door" d="M1493.81,689.782L1497.03,693L1493.81,696.218L1490.59,693L1493.81,689.782Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_22" serif:id="22">
+                    <path id="room41" serif:id="room" d="M1514,967L1514,943L1478,943L1478,839L1402,839L1402,967L1514,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door48" serif:id="door" d="M1439.44,827.886L1442.66,831.104L1439.44,834.322L1436.22,831.104L1439.44,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_21" serif:id="21">
+                    <rect id="room42" serif:id="room" x="1350" y="839" width="48" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door49" serif:id="door" d="M1373.51,827.886L1376.73,831.104L1373.51,834.322L1370.29,831.104L1373.51,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_20" serif:id="20">
+                    <rect id="room43" serif:id="room" x="1298" y="839" width="48" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door50" serif:id="door" d="M1318.64,827.886L1321.86,831.104L1318.64,834.322L1315.42,831.104L1318.64,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_19" serif:id="19">
+                    <path id="room44" serif:id="room" d="M1294,967L1294,839L1182,839L1182,911L1202,911L1202,967L1294,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door51" serif:id="door" d="M1245.33,827.886L1248.55,831.104L1245.33,834.322L1242.11,831.104L1245.33,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_18" serif:id="18">
+                    <path id="room45" serif:id="room" d="M1178,839L1178,915L1198,915L1198,967L1126,967L1126,911L1142,911L1142,883L1162,883L1162,839L1178,839Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door52" serif:id="door" d="M1169.45,827.886L1172.66,831.104L1169.45,834.322L1166.23,831.104L1169.45,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_17" serif:id="17">
+                    <path id="room46" serif:id="room" d="M1158,839L1158,879L1086,879L1086,839L1158,839" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door53" serif:id="door" d="M1121.64,827.886L1124.86,831.104L1121.64,834.322L1118.42,831.104L1121.64,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_16" serif:id="16">
+                    <path id="room47" serif:id="room" d="M1138,883L1138,907L1122,907L1122,967L986,967L986,839L1082,839L1082,883L1138,883Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door54" serif:id="door" d="M1033.09,827.886L1036.3,831.104L1033.09,834.322L1029.87,831.104L1033.09,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_15" serif:id="15">
+                    <rect id="room48" serif:id="room" x="938" y="839" width="44" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door55" serif:id="door" d="M959.13,827.886L962.348,831.104L959.13,834.322L955.913,831.104L959.13,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_14" serif:id="14">
+                    <rect id="room49" serif:id="room" x="890" y="839" width="44" height="128" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door56" serif:id="door" d="M914.372,827.886L917.59,831.104L914.372,834.322L911.154,831.104L914.372,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_13" serif:id="13">
+                    <path id="room50" serif:id="room" d="M886,967L886,839L806,839L806,871L822,871L822,911L842,911L842,967L886,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door57" serif:id="door" d="M862.549,827.886L865.767,831.104L862.549,834.322L859.331,831.104L862.549,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_12" serif:id="12">
+                    <path id="room51" serif:id="room" d="M838,967L838,915L818,915L818,875L802,875L802,839L786,839L786,915L770,915L770,967L838,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door58" serif:id="door" d="M793.406,827.886L796.624,831.104L793.406,834.322L790.188,831.104L793.406,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_11" serif:id="11">
+                    <path id="room52" serif:id="room" d="M766,967L766,911L782,911L782,839L730,839L730,967L766,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door59" serif:id="door" d="M756.508,827.886L759.726,831.104L756.508,834.322L753.29,831.104L756.508,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_10" serif:id="10">
+                    <path id="room53" serif:id="room" d="M726,967L726,839L670,839L670,907L614,907L614,967L726,967Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door60" serif:id="door" d="M698.274,827.886L701.492,831.104L698.274,834.322L695.056,831.104L698.274,827.886Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_9" serif:id="9">
+                    <path id="room54" serif:id="room" d="M458.521,667C443.357,687.332 433.822,712.105 432.236,739L366,739L366,699L398,699L398,671L434,671L434,667L458.521,667Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door61" serif:id="door" d="M447.56,702.045L450.778,705.263L447.56,708.481L444.342,705.263L447.56,702.045Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_8" serif:id="8">
+                    <path id="room55" serif:id="room" d="M432.059,743C432.02,744.329 432,745.662 432,747C432,761.465 434.297,775.398 438.546,788.454L392,835L354,835L354,743L432.059,743Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door62" serif:id="door" d="M440.156,762.439L443.374,765.657L440.156,768.875L436.938,765.657L440.156,762.439Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_7" serif:id="7">
+                    <path id="room56" serif:id="room" d="M440.086,792.914C448.501,815.959 463.067,836.054 481.792,851.208L462,871L462,967L354,967L354,839L394,839L440.086,792.914Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door63" serif:id="door" d="M463.014,819.608L466.232,822.826L463.014,826.044L459.796,822.826L463.014,819.608Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_6" serif:id="6">
+                    <path id="room57" serif:id="room" d="M485.156,853.844C507.634,870.885 535.645,881 566,881L566,967L466,967L466,873L485.156,853.844Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door64" serif:id="door" d="M524.797,864.211L528.015,867.428L524.797,870.646L521.579,867.428L524.797,864.211Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_5" serif:id="5">
+                    <path id="room58" serif:id="room" d="M610,873.597L610,967L570,967L570,880.941C583.973,880.531 597.412,877.977 610,873.597Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door65" serif:id="door" d="M589.198,868.657L592.416,871.875L589.198,875.093L585.98,871.875L589.198,868.657Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_4" serif:id="4">
+                    <path id="room59" serif:id="room" d="M663.338,839L666,839L666,903L614,903L614,872.133C633.258,864.732 649.54,853.852 663.338,839Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door66" serif:id="door" d="M636,850.018L639.218,853.236L636,856.454L632.782,853.236L636,850.018Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_3" serif:id="3">
+                    <path id="room60" serif:id="room" d="M762,639L782,639L782,755L699.764,755C699.921,752.353 700,749.686 700,747C700,710.67 685.511,677.697 662,653.55L662,575L762,575L762,639Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door67" serif:id="door" d="M741.909,761.63L745.127,764.848L741.909,768.066L738.692,764.848L741.909,761.63Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                    <path id="door68" serif:id="door" d="M685.123,699.436L688.341,702.654L685.123,705.871L681.905,702.654L685.123,699.436Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_2" serif:id="2">
+                    <path id="room61" serif:id="room" d="M658,649.609C645.394,637.695 630.479,628.199 614,621.867L614,575L658,575L658,649.609Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door69" serif:id="door" d="M633.559,634.951L636.777,638.168L633.559,641.386L630.341,638.168L633.559,634.951Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
+                </g>
+                <g id="_1" serif:id="1">
+                    <path id="room62" serif:id="room" d="M610,620.403C596.216,615.607 581.41,613 566,613L566,575L610,575L610,620.403Z" style="fill:none;stroke:black;stroke-width:0.5px;"/>
+                    <path id="door70" serif:id="door" d="M588,617.185L591.218,620.403L588,623.621L584.782,620.403L588,617.185Z" style="fill:rgb(235,235,235);stroke:rgb(255,0,135);stroke-width:0.5px;"/>
                 </g>
             </g>
         </g>
