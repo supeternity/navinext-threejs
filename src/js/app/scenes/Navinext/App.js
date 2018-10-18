@@ -1,57 +1,47 @@
 
-//                                  NAVINEXT-RENDER Demo
+//                                              NAVINEXT
 // _____________________________________________________
 
 
 // Scene Config -
 import Conf from './conf';
 
+// Local imports -
+import SVGSON from 'svgson-next';
+
 // Local imports
 // Procedural SVG stack
-import Building from './building';
+import Tower from './app/render/tower';
 
 
-//                                        Stage managment
+//                                        Scene managment
 // ______________________________________________________
 
-export default class Stage {
+export default class Map {
 
-  constructor( svg, scene ) {
+  constructor(svg) {
     this.svg = svg;
-    this.scene = scene;
     this.conf = Conf;
     this.style = this.conf.style;
   }
 
-
   //                                          local methods
   // ______________________________________________________
-
+  
   // ------------------------------------------------------
-  //                                                 create
-  // map
+  //                                            hyperLaying
+  // asynch 3DLayouts
   // ------------------------------------------------------
   //
-  create() {
-
-    const building = new Building( this.svg, this.style );
-
-    building.convert().then(() => {
-
-      building.obj.map( build => {
-        this.scene.add( build );
-      });
-
-    }).catch(err => {
-      console.error(`Create a building: ${err}`);
-    });
+  hyperLaying() {
     
   }
-
-
+  
   //                                              class API
   // ______________________________________________________
-
   
+  create() {
+    SVGSON.parse
+  }
 
 }

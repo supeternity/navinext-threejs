@@ -10,7 +10,7 @@ import SVGSON from 'svgson-next';
 
 // Helpers -
 import svgShape from '../../helpers/svgShape';
-import svgExtruder from '../../helpers/svgExtruder';
+import svgExtrude from '../../helpers/svgExtrude';
 
 
 //                                 3DO library for Cell's
@@ -128,7 +128,7 @@ export default class Cube {
 
         model.name = el.name;
         el.shapes.map(_el => {
-          const extruder = new svgExtruder( _el, el.props );
+          const extruder = new svgExtrude( _el, el.props );
           const mesh = extruder.obj;
           mesh.name = `${el.name}-${_el.class}`;
           model.add( mesh );

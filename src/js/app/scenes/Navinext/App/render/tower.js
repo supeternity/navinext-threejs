@@ -1,23 +1,20 @@
 
-//                                  NAVINEXT-RENDER Demo
+//                                              NAVINEXT
 // _____________________________________________________
 
 // Global imports -
 import * as THREE from 'three';
 
-// Local imports -
-import SVGSON from 'svgson-next';
-
 // Helpers -
-import svgShape from '../../helpers/svgShape';
-import svgExtruder from '../../helpers/svgExtruder';
+import svgShape from '../../../../helpers/svgShape';
+import svgExtruder from '../../../../helpers/svgExtrude';
 
 
-//                               3DO library for Building
+//                          3DO library for Tower floor's 
 //                                   Timilink LLC. © 2018
 // ______________________________________________________
 
-export default class Building {
+export default class Tower {
 
   constructor( svg, style ) {
     this.svg = svg;
@@ -29,67 +26,9 @@ export default class Building {
       ways: [],
       doors: [],
     };
-    this.status = {
-      disassembly: false,
-      shapes: false,
-      directions: false,
-      meshes: false,
-      sprites: false,
-    };
   }
 
 
-  //                                          local methods
-  // ______________________________________________________
-
-  // ------------------------------------------------------
-  //                                               hyperlay
-  // 
-  // for parallel layer disassembly
-  // ------------------------------------------------------
-  //
-  hyperlay(layer) {
-    const d = new Date();
-    console.log(`%c at ${d.getHours()}:${d.getMinutes()} 
- hyperlay <- ${layer.attributes.id} `, 'background: #f1f1f1; color: #210FFF');
-
-    return new Promise(resolve => {
-      if (layer.attributes.id === 'rooms') {
-        const rooms = [];
-        console.log('init room-container');
-        console.dir(rooms);
-        layer.children.reverse().map((el, i) => { // pick id from el
-          console.log('init layer mapping');
-          console.dir(el);
-          el.children.map(_el => {
-            if (_el.attributes.class === 'room') {
-              const room = {
-                id: el.attributes.class, // int id
-                d: _el.attributes.d,
-              };
-              rooms.push(room);
-            } else if (_el.attributes.class === 'door') {
-              const door = {
-                id: el.attributes.class, // int id
-              };
-              const dbody = new svgShape(_el.attributes.d);
-              const bbox2 = new THREE.Box2();
-              bbox2.setFromPoints(dbody.obj[0].getPoints());
-              door.center = bbox2.getCenter();
-              this.directions.doors.push(door);
-            }
-          });
-          if (i === layer.children.length - 1) {
-            console.dir(rooms);
-            console.dir(this.directions.doors);
-            resolve(rooms);
-          }
-        });
-      } else if (layer.attributes.id === 'directions') {
-      } else if (layer.attributes.id === 'background') {
-      }
-    });
-  }
 
   // ------------------------------------------------------
   //                                            disassembly
@@ -101,12 +40,10 @@ export default class Building {
   //    source - SVGSON
   // 
   // p a r t s
-  //    source.children[0] ... .children[n] - SVG layers
-  //    source.attributes - all data of conctrete object
-  //    stack - array for part's-promises
+  //    run parallel hyperlay
   //
   // r e t u r n
-  //    res.building[] - d-pathes for strong objects
+  //    res.building[] - d-pathes for objects
   //    res.directions[] - indexed waylines for TSP
   //    res.background[] - placed your build on Earth
   //    
@@ -136,10 +73,6 @@ export default class Building {
       // console.log(`%c working JSON stack: `,
       //   'background: #FFFFFF; color: #CCCCCC');
       // console.dir(stack);
-
-      // cast armature
-      // cast directions
-      // cast bacgrkound (enveronment)
 
     });
   }
@@ -241,22 +174,22 @@ export default class Building {
       SVGSON.parse( this.svg ).then(res => {
 
         console.log('%c SVGSON: ', 'background: #3f87a6; color: #eee');
-        console.dir(res);
+        console.log(res);
 
         // SVGSON to mustdata juice
         this.disassembly(res).then(res => {
 
-          console.dir(res);
+          console.log(res);
 
           // convert d to true THREE.Shape objects
           this.shapes(res).then(res => {
 
-            console.dir(res.meshes);
+            console.log(res.meshes);
 
             // convert all curves to true THREE.Mesh objects
             this.meshes(res.meshes).then(res => {
 
-              console.dir(res);
+              console.log(res);
 
               // set local instance
               const obj = res;

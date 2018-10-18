@@ -3,12 +3,8 @@
 // _____________________________________________________
 
 export default {
-  source: './assets/models/svg/maps/debug/debug-waypoints.svg',
-  disposition: ['b', 'o', 'x', 'o', 'b', 'o', 'x', 'o', 'b'],
-  player: 'x',
-  bot: {
-    name: 'Cyber Boroday',
-  },
+  source: './assets/models/svg/maps/debug/debug-floor.svg',
+
 
   // ------------------------------------------------------
   //                                            specs style
@@ -27,7 +23,6 @@ export default {
   //        
   // ------------------------------------------------------
   //
-  
   style: {
     wall: false,
     depth: {
