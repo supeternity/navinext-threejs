@@ -19,7 +19,7 @@ import Texture from './model/texture';
 
 // Scenes
 import TicTac from './scenes/TicTac';
-import Maps from './scenes/maps';
+import Navinext from './scenes/Navinext';
 
 // Managers
 import Interaction from './managers/interaction';
@@ -87,11 +87,13 @@ export default class Main {
       // this.teapot = new Model(this.scene, this.manager, this.texture.textures);
       // this.teapot.load();
 
-      // Load Timilink demo
-      this.tictac = new TicTac(this.scene, this.manager);
+      // Load TicTac game
+      // this.tictac = new TicTac(this.scene, this.manager);
       // this.tictac.load();
-      this.maps = new Maps(this.scene, this.manager);
-      this.maps.load();
+
+      // Load Timilink demo
+      this.navinext = new Navinext(this.scene, this.manager);
+      this.navinext.load();
 
       // onProgress callback
       this.manager.onProgress = (item, loaded, total) => {
@@ -116,10 +118,8 @@ export default class Main {
         Config.isLoaded = true;
         this.container.querySelector('#loading').style.display = 'none';
 
-        // run demo
-        // must have special loader for scenes
-        //this.tictac.run();
-        this.maps.run();
+        // run Timilink Navinext
+        this.navinext.run();
 
       };
     });

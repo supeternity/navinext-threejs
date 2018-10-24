@@ -1,7 +1,4 @@
 
-//                                  NAVINEXT-RENDER Demo
-// _____________________________________________________
-
 export default {
   source: './assets/models/svg/maps/debug/debug-floor.svg',
 
@@ -24,15 +21,13 @@ export default {
   // ------------------------------------------------------
   //
   style: {
-    wall: false,
-    depth: {
-      room: 40,
-    },
-    color: {
-      room: '#FFFFFF',
-    },
-    shadows: {
-      room: true,
-    },
+    floor: {
+      room: {
+        depth: 40,
+        flooring: 'silverGrid',
+        color: '#FFFFFF',
+        shadows: true,
+      }
+    }
   },
 }

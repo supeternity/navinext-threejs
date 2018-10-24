@@ -78,17 +78,16 @@ export default class Navinext {
       //   ⤷ заменён на 'class' https://www.w3.org/TR/SVG/styling.html#ClassAttribute
       SVG = SVG.replace(/serif:id=/gm, 'class=');
 
-      // Convert all SVG-shapes to SVG-pathes
       new shapes2path();
+      // Convert all SVG-shapes to SVG-pathes
       shapes2path.output(SVG).then(res => {
-        this.svg = res;
-      }).catch(err => {
-        console.log('shape2path error: ' + err);
-      });
+        SVG = res;
 
-      // making the Map
-      this.map = new Map(this.svg);
-      this.map.create();
+        // making the Map
+        this.map = new Map(SVG, this.scene);
+        this.map.create();
+
+      });
 
     });
   }

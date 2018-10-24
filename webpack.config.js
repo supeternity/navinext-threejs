@@ -1,6 +1,7 @@
 // Global imports
-var webpack = require('webpack'),
-    path    = require('path');
+var webpack    = require('webpack'),
+    path       = require('path');
+    visualiser = require('webpack-visualizer-plugin');
 
 // Paths
 var entry           = './src/js/app.js',
@@ -22,8 +23,12 @@ var env = 'dev',
       new webpack.DefinePlugin({
         __ENV__: JSON.stringify(env),
         ___BUILD_TIME___: time
-      })
-    ];
+      }),
+      //new telemetry
+      new visualiser({
+        filename: './telemetry.html'
+      }),
+    ]
 
 // Production environment
 if(PROD) {

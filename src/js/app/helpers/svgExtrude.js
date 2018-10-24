@@ -48,8 +48,8 @@ export default class svgExtruder {
   // ______________________________________________________
   
   extrude() {
-    this.geometry = new THREE.ExtrudeGeometry( this.draw.shape, {
-      amount: this.props.depth[this.draw.class],
+    this.geometry = new THREE.ExtrudeGeometry( this.draw, {
+      amount: this.props.depth,
       steps: 1,
       bevelEnabled: false,
       bevelThickness: 40,
@@ -57,11 +57,9 @@ export default class svgExtruder {
       bevelSegments: 40,
       curveSegments: 30,
     });
-    this.material = new Material( this.props.color[this.draw.class] ).standard;
+    this.material = new Material( this.props.color ).standard;
     const obj = new THREE.Mesh( this.geometry, this.material );
-    obj.visible = false;
     obj.rotateX( 90 * Math.PI / 180 );
-    obj.name = this.draw.class;
     this.obj = obj;
   }
 
