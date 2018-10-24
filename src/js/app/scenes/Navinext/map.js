@@ -2,15 +2,12 @@
 // Global imports
 import * as THREE from 'three';
 
-// Scene Config -
-import Conf from './conf';
-
 // Local imports -
 import SVGSON from 'svgson-next';
 
 // Local imports
 // Procedural SVG stack
-import Tower from './App/render/tower';
+import Tower from './Map/tower';
 
 
 //                                        All world parts
@@ -18,10 +15,10 @@ import Tower from './App/render/tower';
 
 export default class Map {
 
-  constructor(svg, scene) {
+  constructor(svg, conf, scene) {
     this.svg = svg;
     this.scene = scene;
-    this.conf = Conf;
+    this.conf = conf;
     this.style = this.conf.style;
   }
   
@@ -31,12 +28,11 @@ export default class Map {
   create() {
 
     SVGSON.parse(this.svg).then(res => {
+      
       this.tower = new Tower(res.children[0].children[0].children[0], this.style);
-      this.tower.build();
-      this.scene.add( this.tower.floors.container );
+      this.tower.build(this.scene);
 
-      console.log(1, this.tower.floors.container);
-      console.log(0, this.scene);
+      console.log(-20, this.scene);
 
     });
 

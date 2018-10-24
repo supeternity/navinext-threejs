@@ -35,7 +35,7 @@ import * as THREE from 'three';
 import Material from './material';
 
 
-export default class svgExtruder {
+export default class Extruder {
 
   constructor ( draw, props ) {
     this.draw = draw;
@@ -57,7 +57,8 @@ export default class svgExtruder {
       bevelSegments: 40,
       curveSegments: 30,
     });
-    this.material = new Material( this.props.color ).standard;
+    console.log(-10, this.props);
+    this.material = new Material( this.props.room.color ).standard;
     const obj = new THREE.Mesh( this.geometry, this.material );
     obj.rotateX( 90 * Math.PI / 180 );
     this.obj = obj;

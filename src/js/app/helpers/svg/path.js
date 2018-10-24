@@ -48,7 +48,7 @@ let idx = 1, activeCmd,
 const PATH = new THREE.ShapePath();
 
 
-export default class svgShape {
+export default class Shaper {
 
   constructor ( pathStr ) {
     this.pathStr = pathStr;

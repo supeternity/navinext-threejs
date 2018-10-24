@@ -20,13 +20,13 @@
 import * as THREE from 'three';
 
 // TT Config -
-import Conf from './Navinext/conf';
+import Conf from './Navinext/config';
 
 // Runtime parts -
-import shapes2path from './Navinext/app/runtime/shapes2path';
+import shapes2path from './Navinext/Map/runtime/shapes2path';
 
 // Scene parts -
-import Map from './Navinext/App';
+import Map from './Navinext/map';
 
 
 // The Scene Main Class                              Maps
@@ -83,8 +83,10 @@ export default class Navinext {
       shapes2path.output(SVG).then(res => {
         SVG = res;
 
+        console.log(-30, SVG);
+
         // making the Map
-        this.map = new Map(SVG, this.scene);
+        this.map = new Map(SVG, this.conf, this.scene);
         this.map.create();
 
       });

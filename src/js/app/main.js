@@ -18,7 +18,6 @@ import Stats from './helpers/stats';
 import Texture from './model/texture';
 
 // Scenes
-import TicTac from './scenes/TicTac';
 import Navinext from './scenes/Navinext';
 
 // Managers
