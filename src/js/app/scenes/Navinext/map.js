@@ -7,7 +7,7 @@ import SVGSON from 'svgson-next';
 
 // Local imports
 // Procedural SVG stack
-import Tower from './Map/tower';
+import Tower from './map/tower';
 
 
 //                                        All world parts
@@ -29,10 +29,8 @@ export default class Map {
 
     SVGSON.parse(this.svg).then(res => {
       
-      this.tower = new Tower(res.children[0].children[0].children[0], this.style);
+      this.tower = new Tower(this.scene, res.children[0].children[0].children[0], this.style);
       this.tower.build(this.scene);
-
-      console.log(-20, this.scene);
 
     });
 

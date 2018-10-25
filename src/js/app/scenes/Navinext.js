@@ -20,13 +20,13 @@
 import * as THREE from 'three';
 
 // TT Config -
-import Conf from './Navinext/config';
+import Conf from './navinext/config';
 
 // Runtime parts -
-import shapes2path from './Navinext/Map/runtime/shapes2path';
+import shapes2path from './navinext/runtime/shapes2path';
 
 // Scene parts -
-import Map from './Navinext/map';
+import Map from './navinext/map';
 
 
 // The Scene Main Class                              Maps
@@ -34,7 +34,7 @@ import Map from './Navinext/map';
 // Is abstract overlay for an app                        
 // ______________________________________________________
 
-export default class Navinext {
+export default class navinext {
 
   constructor(scene, manager) {
 
@@ -81,9 +81,8 @@ export default class Navinext {
       new shapes2path();
       // Convert all SVG-shapes to SVG-pathes
       shapes2path.output(SVG).then(res => {
+        
         SVG = res;
-
-        console.log(-30, SVG);
 
         // making the Map
         this.map = new Map(SVG, this.conf, this.scene);

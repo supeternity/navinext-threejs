@@ -18,7 +18,7 @@ import Stats from './helpers/stats';
 import Texture from './model/texture';
 
 // Scenes
-import Navinext from './scenes/Navinext';
+import Navinext from './scenes/navinext';
 
 // Managers
 import Interaction from './managers/interaction';
