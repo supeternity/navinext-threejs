@@ -49,7 +49,7 @@ export default class Extruder {
   
   extrude() {
     this.geometry = new THREE.ExtrudeGeometry( this.draw, {
-      amount: this.props.depth,
+      depth: this.props.room.depth,
       steps: 1,
       bevelEnabled: false,
       bevelThickness: 40,
@@ -57,7 +57,6 @@ export default class Extruder {
       bevelSegments: 40,
       curveSegments: 30,
     });
-    console.log(-10, this.props);
     this.material = new Material( this.props.room.color ).standard;
     const obj = new THREE.Mesh( this.geometry, this.material );
     obj.rotateX( 90 * Math.PI / 180 );
