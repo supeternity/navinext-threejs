@@ -85,8 +85,10 @@ export default class navinext {
         SVG = res;
 
         // making the Map
-        this.map = new Map(SVG, this.conf, this.scene);
+        this.map = new Map(this.scene, this.conf, SVG);
         this.map.create();
+
+        console.log(-1, this.map);
 
       });
 
@@ -99,8 +101,8 @@ export default class navinext {
   // ------------------------------------------------------
   //
   run() {
-    console.log('Run map stage in continuum');
-    // this.scene.add( this.map.stage );
+    console.log(0, this.map);
+    console.log(1, this.scene);
   }
 
 }

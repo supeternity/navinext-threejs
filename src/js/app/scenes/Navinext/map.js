@@ -15,7 +15,7 @@ import Tower from './map/tower';
 
 export default class Map {
 
-  constructor(svg, conf, scene) {
+  constructor(scene, conf, svg) {
     this.svg = svg;
     this.scene = scene;
     this.conf = conf;
@@ -28,9 +28,14 @@ export default class Map {
   create() {
 
     SVGSON.parse(this.svg).then(res => {
+
+      // hyperlay draft ?
+      let source = {
+        floor: res.children[0].children[0].children[0],
+      }
       
-      this.tower = new Tower(this.scene, res.children[0].children[0].children[0], this.style);
-      this.tower.build(this.scene);
+      this.tower = new Tower(this.scene, this.style, source);
+      this.tower.build();
 
     });
 

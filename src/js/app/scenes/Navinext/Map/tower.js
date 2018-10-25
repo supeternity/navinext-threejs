@@ -11,11 +11,11 @@ import Floor from './tower/floor';
 
 export default class Tower {
 
-  constructor(scene, floor, style) {
+  constructor(scene, style, source) {
     this.scene = scene;
     // testing one floor (not array) in [this revision]*
     this.floor = {
-      source: floor,
+      source: source.floor,
       mesh: [],
     };
     this.style = style;
@@ -26,15 +26,7 @@ export default class Tower {
     // init floors building
     // maping this.floors.source array for *[next revision]
     new Floor();
-    Floor.build(
-      this.floor.source,
-      this.floor.mesh,
-      this.style.floor
-    );
-
-    for (let i = 0; i <= this.floor.mesh.length - 1; i++) {
-      this.scene.add(this.floor.mesh[i]);
-    }
+    Floor.build(this.floor.source, this.floor.mesh, this.style.floor);
 
   }
 
