@@ -47,16 +47,13 @@ let idx = 1, activeCmd,
 
 const PATH = new THREE.ShapePath();
 
+export default class SVG {
 
-export default class Shaper {
-
-  constructor ( pathStr ) {
-    this.pathStr = pathStr;
-    this.pathing();
+  constructor() {
+    this.THREEShape = null;
   }
 
-
-  eatNum() {
+  static eatNum() {
 
     let sidx, c, isFloat = false, s;
 
@@ -94,8 +91,7 @@ export default class Shaper {
 
   }
 
-
-  nextIsNum() {
+  static nextIsNum() {
     var c;
     // do permanently eat any delims...
     while (idx < this.pathStr.length) {
@@ -109,7 +105,9 @@ export default class Shaper {
   }
 
 
-  pathing() {
+  static path(src) {
+
+    this.pathStr = src;
     
     let canRepeat;
     let enteredSub = false;
@@ -302,7 +300,7 @@ export default class Shaper {
       activeCmd = this.pathStr[idx++];
     }
     
-    this.obj = PATH.toShapes();
+    this.THREEShape = PATH.toShapes();
 
   }
 
