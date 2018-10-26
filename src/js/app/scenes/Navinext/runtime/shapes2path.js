@@ -69,8 +69,6 @@ export default class shapes2path {
           rect: {},
         };
         let inlineBuffer = null;
-        // ___________________________________________________
-        // RECTANGLE.inline
         // ⤷ full-xml property for difference properties object
         inlineBuffer = tick.source.match( regexp.rectangle.inline );
         // ___________________________________________________
