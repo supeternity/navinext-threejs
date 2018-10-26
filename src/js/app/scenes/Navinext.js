@@ -23,7 +23,7 @@ import * as THREE from 'three';
 import Conf from './navinext/config';
 
 // Runtime parts -
-import shapes2path from './navinext/runtime/shapes2path';
+import SVG from '../helpers/svg';
 
 // Scene parts -
 import Map from './navinext/map';
@@ -95,8 +95,8 @@ export default class navinext {
     this.source = this.source.replace(/serif:id=/gm, 'class=');
 
     // Convert all SVG-shapes to SVG-pathes
-    new shapes2path();
-    shapes2path.output(this.source).then(res => {
+    new SVG();
+    SVG.shapes2pathes(this.source).then(res => {
 
       delete this.source;
 
