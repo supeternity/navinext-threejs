@@ -14,28 +14,31 @@ import Tower from './map/tower';
 // ______________________________________________________
 
 export default class Map {
-
-  constructor(scene, conf, svg) {
-    this.svg = svg;
-    this.scene = scene;
-    this.conf = conf;
-    this.style = this.conf.style;
-  }
   
+  constructor(scene, style) {
+    this.scene = scene;
+    this.style = style;
+  }
+
+  //                                          local methods
+  // ______________________________________________________
+
   //                                              class API
   // ______________________________________________________
 
-  create() {
+  create(SVG) {
 
-    SVGSON.parse(this.svg).then(res => {
+    SVGSON.parse(SVG).then(res => {
 
       // hyperlay draft ?
       let source = {
         floor: res.children[0].children[0].children[0],
       }
       
-      this.tower = new Tower(this.scene, this.style, source);
+      this.tower = new Tower(this.style.tower, source);
       this.tower.build();
+
+      this.scene.add( this.tower.floor.rooms );
 
     });
 

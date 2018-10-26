@@ -3,37 +3,34 @@
 import * as THREE from 'three';
 
 // Helpers -
-import Shaper from '../../../../helpers/svg/path';
+import SVG from '../../../../helpers/svg';
 import Extruder from '../../../../helpers/extruder';
 
 export default class Floor {
 
   constructor() {
-    this.floors = null;
+    this.floor = null;
     this.style = null;
   }
 
-  static build(floors, mesh, style) {
+  static build(floor, style) {
           
-    this.floors = {
-      source: floors,
-      mesh: mesh,
-    };
+    this.floor = floor;
     this.style = style;
 
-    this.floors.source.children.map((roomSource, i) => {
+    this.floor.source.children.map(roomSource => {
 
-      const room = {
-        shape: new Shaper( roomSource.children[0].attributes.d ),
-        mesh: null,
-      };
+      new SVG();
+      SVG.path(roomSource.children[0].attributes.d);
+      
+      let room = new Extruder( SVG.Shape3D, this.style );
+      room.obj.name = roomSource.attributes.id;
 
-      room.mesh = new Extruder( room.shape.obj, this.style );
-      room.mesh.obj.name = roomSource.attributes.id;
-
-      this.floors.mesh.push( room.mesh.obj );
+      this.floor.rooms.add( room.obj );
 
     });
+
+    delete this.floor.source;
 
   }  
 
