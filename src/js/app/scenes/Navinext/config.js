@@ -21,13 +21,15 @@ export default {
   // ------------------------------------------------------
   //
   style: {
-    floor: {
-      room: {
-        depth: 40,
-        flooring: 'silverGrid',
-        color: '#FFFFFF',
-        shadows: true,
-      }
-    }
+    tower: {
+      floor: {
+        room: {
+          depth: 40,
+          flooring: 'silverGrid',
+          color: '#FFFFFF',
+          shadows: true,
+        }
+      },
+    },
   },
 }
