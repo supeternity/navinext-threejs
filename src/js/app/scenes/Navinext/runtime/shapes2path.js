@@ -12,18 +12,18 @@ export default class shapes2path {
 
   static output(SVG) {
 
-    return new Promise((resolve, reject) => {
-      // REGEXP
-      // ⤷ REGEXP's dict
-      //   rectangle: full string-line shape
-      //      inline: all inline-props of string-line
+    return new Promise(( resolve, reject ) => {
+      // regexp
+      // ⤷ regexp's dict
+      //   rectangle: full string-line shape : <rect * />
+      //      inline: all inline-props of string-line : <* [inline-props] />
       //       differ: matching-groups: [1]: name, [2]: value
-      const REGEXP = {
+      const regexp = {
         rectangle: {
           source: /<rect .*/gm,
           inline: /[a-zA-Z]+[.*=]\S*|"\d*"|[a-zA-Z]+[.*=]"\d*.\d*"/gm,
           differ() {
-            // is magic REGEXP for .exec method
+            // is magic regexp for .exec method
             return /([a-zA-Z]*)="(\S*)"/gm;
           },
         }
@@ -34,22 +34,19 @@ export default class shapes2path {
       //   ⤷ rectangle:
       //       .shapeType: https://www.w3schools.com/graphics/svg_rect.asp
       //       .search: all shapes items
-      //       .dif: objects array with [{difference one rectangle props}, ... {}]
+      //       .shapes: objects array with [{difference one rectangle props}, ... {}]
       //     }
-      const SHAPE = {
-        rectangle: {
-          shapeType: 'rect',
-          search: null,
-          dif: [],
-        },
+      const rectangle = {
+        shapeType: 'rect',
+        shapes: [],
       };
       //
       // ⤷  rectangle all shapes search
-      SHAPE.rectangle.search = SVG.match(REGEXP.rectangle.source);
+      let searchBuffer = SVG.match( regexp.rectangle.source );
       // ___________________________________________________
-      // SHAPE.rectangle.dif
+      // rectangle.shapes
       // ⤷  rectangle svg-shape difference props
-      //    SHAPE.diff model: [{
+      //    shapes model: [{
       //      source: string     - source line of SVG,
       //      props: {           - difference-inline props of inline[]
       //        - geometry:
@@ -64,73 +61,85 @@ export default class shapes2path {
       //      },
       //    },
       //    ...]
-      SHAPE.rectangle.dif = SHAPE.rectangle.search.map(rectangle => {
-        const RECTANGLE = {
+      rectangle.shapes = searchBuffer.map( rectangle => {
+        const tick = {
           source: rectangle,
-          inline: null, // a middle buffer
           rect: {},
         };
+        let inlineBuffer = null;
         // ___________________________________________________
         // RECTANGLE.inline
-        // ⤷ full-xml property for difference PROPERTIES object
-        RECTANGLE.inline = RECTANGLE.source.match(
-          REGEXP.rectangle.inline
-        );
+        // ⤷ full-xml property for difference properties object
+        inlineBuffer = tick.source.match( regexp.rectangle.inline );
         // ___________________________________________________
-        // PROPERTIES
+        // properties
         // ⤷ dict for RECTANGLE.props
-        const PROPERTIES = {};
-        RECTANGLE.inline.map(rectangleInlineProperty => {
+        const properties = {};
+        inlineBuffer.map( rectangleInlineProperty => {
           // making matching groups
-          const PROPERTY = REGEXP.rectangle.differ().exec(rectangleInlineProperty);
+          const property = regexp.rectangle.differ().exec( rectangleInlineProperty );
           // making difference properties
-          if ( PROPERTY[1] !== undefined
-            || PROPERTY[2] !== undefined ) {
-            if ( PROPERTY[1] !== 'id'
-              && PROPERTY[1] !== 'class' ) {
-              Object.defineProperty(PROPERTIES, PROPERTY[1], {
-                value: PROPERTY[2],
-              })
+          if ( property[1] !== undefined
+            || property[2] !== undefined ) {
+            if ( property[1] !== 'id'
+              && property[1] !== 'class' ) {
+              // use defineProperty because of imposible define
+              // naming property from string element of array
+              // impossible examples: 
+              //   example = {
+              //     property[1]: property[2],
+              //   }
+              //   example.property[1] = property[2]
+              Object.defineProperty( properties, property[1], {
+                value: property[2],
+              });
             } else {
-              Object.defineProperty(PROPERTIES, PROPERTY[1], {
+              // use defineProperty because of imposible define
+              // naming property from string element of array
+              // impossible examples: 
+              //   example = {
+              //     property[1]: property[2],
+              //   }
+              //   example.property[1] = property[2]
+              Object.defineProperty( properties, property[1], {
                 get: () => {
-                  if (PROPERTY[1] === 'id') {
-                    return 'id="' + PROPERTY[2] + '" ';
-                  } else if (PROPERTY[1] === 'class') {
-                    return 'class="' + PROPERTY[2] + '" ';
+                  if ( property[1] === 'id' ) {
+                    return 'id="' + property[2] + '" ';
+                  } else if ( property[1] === 'class' ) {
+                    return 'class="' + property[2] + '" ';
                   }
-                }
-              })
+                }, configurable: true,
+              });
             }
           } else {
             reject('<rect../> diff crash');
           }
         });
-        RECTANGLE.rect = PROPERTIES;
-        delete RECTANGLE.inline;
-        return RECTANGLE;
+        tick.rect = properties;
+        console.log(0, tick.rect);
+        return tick;
       });
 
       //                                 drawing rectangle's
       // ___________________________________________________
-      SHAPE.rectangle.dif.map((shape, i) => {
+      rectangle.shapes.map((shape, i) => {
         // set path-drawing parameters
-        const D_PATH = dRAW.rect({
+        const path = dRAW.rect({
           x: shape.rect.x,
           y: shape.rect.y,
           width: shape.rect.width,
           height: shape.rect.height,
         });
         // new string-line to replace
-        if (D_PATH) {
-          const STR = '<path ' +
+        if (path) {
+          const str = '<path ' +
             (shape.rect.id ? shape.rect.id : '') +
             (shape.rect.class ? shape.rect.class : '') +
-            'd="' + D_PATH + '" ' +
+            'd="' + path + '" ' +
             '/>';
           // replacing source finalisation
-          SVG = SVG.replace(shape.source, STR);
-          i === SHAPE.rectangle.dif.length - 1 ?
+          SVG = SVG.replace(shape.source, str);
+          i === rectangle.shapes.length - 1 ?
             resolve(SVG) :
             '';
         } else {
