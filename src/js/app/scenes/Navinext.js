@@ -49,7 +49,7 @@ export default class navinext {
     this.scene = scene;
     this.manager = manager;
     this.loader = new THREE.FileLoader(manager);
-    this.svg = null;
+    this.source = null;
     this.conf = Conf;
     this.style = this.conf.style;
 
@@ -71,7 +71,7 @@ export default class navinext {
   // Only load static resources
   load() {
     this.loader.load(this.conf.source, res => {
-      this.svg = res;
+      this.source = res;
     });
   }
 
@@ -86,23 +86,22 @@ export default class navinext {
 
     // Replace inline styles
     // ⤷ For future css-support
-    this.svg = this.svg.replace(/style=".*"/gm, '');
+    this.source = this.source.replace(/style=".*"/gm, '');
 
     // Normalized to https://www.w3.org/TR/SVG/
     // ⤷ 'serif:id' отсутствует в официальном стандарте:
     //   https://www.google.ru/search?q=site:https://www.w3.org/TR/SVG/+serif:id
     //   ⤷ заменён на 'class' https://www.w3.org/TR/SVG/styling.html#ClassAttribute
-    this.svg = this.svg.replace(/serif:id=/gm, 'class=');
+    this.source = this.source.replace(/serif:id=/gm, 'class=');
 
     // Convert all SVG-shapes to SVG-pathes
     new shapes2path();
-    shapes2path.output(this.svg).then(res => {
-      
-      console.log(-2, res);
-      this.svg = res;
+    shapes2path.output(this.source).then(res => {
+
+      delete this.source;
 
       // init world creating
-      this.map.create(this.svg);
+      this.map.create(res);
 
     });
 
