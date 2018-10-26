@@ -1,8 +1,3 @@
-
-// Global imports -
-import * as THREE from 'three';
-
-// Helpers -
 import SVG from '../../../../helpers/svg';
 import Extruder from '../../../../helpers/extruder';
 
@@ -13,7 +8,7 @@ export default class Floor {
     this.style = null;
   }
 
-  static build(floor, style) {
+  static build( floor, style ) {
           
     this.floor = floor;
     this.style = style;
@@ -21,7 +16,7 @@ export default class Floor {
     this.floor.source.children.map(roomSource => {
 
       new SVG();
-      SVG.path(roomSource.children[0].attributes.d);
+      SVG.path( roomSource.children[0].attributes.d );
       
       let room = new Extruder( SVG.Shape3D, this.style );
       room.obj.name = roomSource.attributes.id;
