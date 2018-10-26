@@ -49,8 +49,11 @@ export default class navinext {
     this.scene = scene;
     this.manager = manager;
     this.loader = new THREE.FileLoader(manager);
+    this.svg = null;
     this.conf = Conf;
     this.style = this.conf.style;
+
+    this.map = new Map(this.scene, this.style);
 
   }
 
@@ -65,33 +68,10 @@ export default class navinext {
   // Load *[map_source].svg location set in ~/scene.conf
   // ------------------------------------------------------
   //
+  // Only load static resources
   load() {
     this.loader.load(this.conf.source, res => {
-
-      // Replace inline styles
-      // ⤷ For future the full css-support
-      let SVG = res.replace(/style=".*"/gm, '');
-
-      // Normalized to https://www.w3.org/TR/SVG/
-      // ⤷ 'serif:id' отсутствует в официальном стандарте:
-      //   https://www.google.ru/search?q=site:https://www.w3.org/TR/SVG/+serif:id
-      //   ⤷ заменён на 'class' https://www.w3.org/TR/SVG/styling.html#ClassAttribute
-      SVG = SVG.replace(/serif:id=/gm, 'class=');
-
-      new shapes2path();
-      // Convert all SVG-shapes to SVG-pathes
-      shapes2path.output(SVG).then(res => {
-        
-        SVG = res;
-
-        // making the Map
-        this.map = new Map(this.scene, this.conf, SVG);
-        this.map.create();
-
-        console.log(-1, this.map);
-
-      });
-
+      this.svg = res;
     });
   }
 
@@ -101,8 +81,31 @@ export default class navinext {
   // ------------------------------------------------------
   //
   run() {
-    console.log(0, this.map);
-    console.log(1, this.scene);
+
+    // Resources processing
+
+    // Replace inline styles
+    // ⤷ For future css-support
+    this.svg = this.svg.replace(/style=".*"/gm, '');
+
+    // Normalized to https://www.w3.org/TR/SVG/
+    // ⤷ 'serif:id' отсутствует в официальном стандарте:
+    //   https://www.google.ru/search?q=site:https://www.w3.org/TR/SVG/+serif:id
+    //   ⤷ заменён на 'class' https://www.w3.org/TR/SVG/styling.html#ClassAttribute
+    this.svg = this.svg.replace(/serif:id=/gm, 'class=');
+
+    // Convert all SVG-shapes to SVG-pathes
+    new shapes2path();
+    shapes2path.output(this.svg).then(res => {
+      
+      console.log(-2, res);
+      this.svg = res;
+
+      // init world creating
+      this.map.create(this.svg);
+
+    });
+
   }
 
 }
