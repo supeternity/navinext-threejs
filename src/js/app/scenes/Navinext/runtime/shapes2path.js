@@ -13,11 +13,13 @@ export default class shapes2path {
   static output(SVG) {
 
     return new Promise(( resolve, reject ) => {
-      // regexp
-      // ⤷ regexp's dict
-      //   rectangle: full string-line shape : <rect * />
+      // regexp dict
+      // ⤷ rectangle: {
+      //      source: full string-line shape : <rect * />
       //      inline: all inline-props of string-line : <* [inline-props] />
-      //       differ: matching-groups: [1]: name, [2]: value
+      //      differ: difference inline-props matching-groups: [1]: name, [2]: value
+      //   }
+      //
       const regexp = {
         rectangle: {
           source: /<rect .*/gm,
@@ -116,7 +118,6 @@ export default class shapes2path {
           }
         });
         tick.rect = properties;
-        console.log(0, tick.rect);
         return tick;
       });
 
