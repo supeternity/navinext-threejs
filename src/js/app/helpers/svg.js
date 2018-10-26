@@ -50,7 +50,7 @@ const PATH = new THREE.ShapePath();
 export default class SVG {
 
   constructor() {
-    this.THREEShape = null;
+    this.Shape3D = null;
   }
 
   static eatNum() {
@@ -300,7 +300,7 @@ export default class SVG {
       activeCmd = this.pathStr[idx++];
     }
     
-    this.THREEShape = PATH.toShapes();
+    this.Shape3D = PATH.toShapes();
 
   }
 
