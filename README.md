@@ -1,7 +1,5 @@
 # Navinext frontent documentation 
 
-```
-
 ## Установка и запуск
 Зависимости:
 
