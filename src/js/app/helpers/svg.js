@@ -54,7 +54,7 @@ const PATH = new THREE.ShapePath();
 export default class SVG {
 
   constructor() {
-    this.Shape3D = null;
+    this.ThreeShape = [];
   }
 
   static shapes2pathes(SVG) {
@@ -91,7 +91,7 @@ export default class SVG {
       };
       //
       // ⤷  rectangle all shapes search
-      let searchBuffer = SVG.match( regexp.rectangle.source );
+      const searchBuffer = SVG.match( regexp.rectangle.source );
       // ___________________________________________________
       // rectangle.shapes
       // ⤷  rectangle svg-shape difference props
@@ -110,61 +110,66 @@ export default class SVG {
       //      },
       //    },
       //    ...]
-      rectangle.shapes = searchBuffer.map( rectangle => {
-        const tick = {
-          source: rectangle,
-          rect: {},
-        };
-        let inlineBuffer = null;
-        // ⤷ full-xml property for difference properties object
-        inlineBuffer = tick.source.match( regexp.rectangle.inline );
-        // ___________________________________________________
-        // properties
-        // ⤷ dict for RECTANGLE.props
-        const properties = {};
-        inlineBuffer.map( rectangleInlineProperty => {
-          // making matching groups
-          const property = regexp.rectangle.differ().exec( rectangleInlineProperty );
-          // making difference properties
-          if ( property[1] !== undefined
-            || property[2] !== undefined ) {
-            if ( property[1] !== 'id'
-              && property[1] !== 'class' ) {
-              // use defineProperty because of imposible define
-              // naming property from string element of array
-              // impossible examples: 
-              //   example = {
-              //     property[1]: property[2],
-              //   }
-              //   example.property[1] = property[2]
-              Object.defineProperty( properties, property[1], {
-                value: property[2],
-              });
+      if (searchBuffer !== null) {
+        rectangle.shapes = searchBuffer.map( rectangle => {
+          const tick = {
+            source: rectangle,
+            rect: {},
+          };
+          let inlineBuffer = null;
+          // ⤷ full-xml property for difference properties object
+          inlineBuffer = tick.source.match( regexp.rectangle.inline );
+          // ___________________________________________________
+          // properties
+          // ⤷ dict for RECTANGLE.props
+          const properties = {};
+          inlineBuffer.map( rectangleInlineProperty => {
+            // making matching groups
+            const property = regexp.rectangle.differ().exec( rectangleInlineProperty );
+            // making difference properties
+            if ( property[1] !== undefined
+              || property[2] !== undefined ) {
+              if ( property[1] !== 'id'
+                && property[1] !== 'class' ) {
+                // use defineProperty because of imposible define
+                // naming property from string element of array
+                // impossible examples: 
+                //   example = {
+                //     property[1]: property[2],
+                //   }
+                //   example.property[1] = property[2]
+                Object.defineProperty( properties, property[1], {
+                  value: property[2],
+                });
+              } else {
+                // use defineProperty because of imposible define
+                // naming property from string element of array
+                // impossible examples: 
+                //   example = {
+                //     property[1]: property[2],
+                //   }
+                //   example.property[1] = property[2]
+                Object.defineProperty( properties, property[1], {
+                  get: () => {
+                    if ( property[1] === 'id' ) {
+                      return 'id="' + property[2] + '" ';
+                    } else if ( property[1] === 'class' ) {
+                      return 'class="' + property[2] + '" ';
+                    }
+                  }, configurable: true,
+                });
+              }
             } else {
-              // use defineProperty because of imposible define
-              // naming property from string element of array
-              // impossible examples: 
-              //   example = {
-              //     property[1]: property[2],
-              //   }
-              //   example.property[1] = property[2]
-              Object.defineProperty( properties, property[1], {
-                get: () => {
-                  if ( property[1] === 'id' ) {
-                    return 'id="' + property[2] + '" ';
-                  } else if ( property[1] === 'class' ) {
-                    return 'class="' + property[2] + '" ';
-                  }
-                }, configurable: true,
-              });
+              reject('<rect../> diff crash');
             }
-          } else {
-            reject('<rect../> diff crash');
-          }
+          });
+          tick.rect = properties;
+          return tick;
         });
-        tick.rect = properties;
-        return tick;
-      });
+      } else {
+        resolve(SVG);
+      }
+      
 
       //                                 drawing rectangle's
       // ___________________________________________________
@@ -195,7 +200,15 @@ export default class SVG {
     });
   }
 
-  static eatNum() {
+
+
+      
+
+  //               converting svg-pathes to three-shapes
+  //               eatNum(), nextIsNum(), path()
+  // ___________________________________________________
+
+  eatNum() {
 
     let sidx, c, isFloat = false, s;
 
@@ -233,7 +246,7 @@ export default class SVG {
 
   }
 
-  static nextIsNum() {
+  nextIsNum() {
     var c;
     // do permanently eat any delims...
     while (idx < this.pathStr.length) {
@@ -246,8 +259,7 @@ export default class SVG {
     return (c === MINUS || (DIGIT_0 <= c && c <= DIGIT_9));
   }
 
-
-  static path(src) {
+  path(src) {
 
     this.pathStr = src;
     
@@ -279,6 +291,8 @@ export default class SVG {
           // we should start a new path here. This also draws a
           // line from the current location to the start location.
           canRepeat = false;
+          console.log('x, y: ', x, y);
+          console.log('fX, fY: ', firstX, firstY);
           if (x !== firstX || y !== firstY)
             PATH.lineTo(firstX, firstY);
 
@@ -429,7 +443,7 @@ export default class SVG {
           break;
 
         default:
-          reject(`weird path command: ${activeCmd}`);
+          console.log(`weird path command: ${activeCmd}`);
       }
       if (firstX === null && !enteredSub) {
         firstX = x;
@@ -442,7 +456,7 @@ export default class SVG {
       activeCmd = this.pathStr[idx++];
     }
     
-    this.Shape3D = PATH.toShapes();
+    this.ThreeShape = PATH.toShapes();
 
   }
 

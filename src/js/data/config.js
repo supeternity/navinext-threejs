@@ -64,7 +64,7 @@ export default {
     enableDamping: true,
     dampingFactor: 0.5,
     enableZoom: true,
-    orhtoZoom: 80,
+    orhtoZoom: 1^-0.66,
     target: {
       x: 0,
       y: 0,
